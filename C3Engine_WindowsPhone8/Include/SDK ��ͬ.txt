@@ -1,0 +1,3 @@
+1.C3BaseFunc.h不一样
+2.graphic.h里的CMyBitmap::Init3DEx/Flip不一样.
+3.EngineBuildOption.h不一样.
