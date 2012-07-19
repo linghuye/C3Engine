@@ -1,0 +1,1091 @@
+ Role3D
+
+ Timestamp is 5003ceee (Mon Jul 16 16:21:02 2012)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000cf4cH .text                   CODE
+ 0001:0000cf50 00000465H .text$x                 CODE
+ 0002:00000000 000000dcH .idata$5                DATA
+ 0002:000000e0 000002fcH .rdata                  DATA
+ 0002:000003e0 00000578H .xdata$x                DATA
+ 0002:00000958 00000050H .idata$2                DATA
+ 0002:000009a8 00000014H .idata$3                DATA
+ 0002:000009bc 000000dcH .idata$4                DATA
+ 0002:00000a98 000007b4H .idata$6                DATA
+ 0002:00001250 0000011dH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 0000000cH .CRT$XCU                DATA
+ 0003:00000010 00000004H .CRT$XCZ                DATA
+ 0003:00000014 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000300H .data                   DATA
+ 0003:00000320 0000069cH .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000060       ??0C3DRoleEx@@QAE@XZ       10001060 f   3DRoleEx.obj
+ 0001:00000170       ??_EC3DRoleEx@@UAEPAXI@Z   10001170 f i 3DRoleEx.obj
+ 0001:00000170       ??_GC3DRoleEx@@UAEPAXI@Z   10001170 f i 3DRoleEx.obj
+ 0001:00000190       ??1C3DRoleEx@@UAE@XZ       10001190 f   3DRoleEx.obj
+ 0001:00000380       ??1?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@QAE@XZ 10001380 f i 3DRoleEx.obj
+ 0001:00000480       ?SetFrame@C3DRoleEx@@UAEXK@Z 10001480 f   3DRoleEx.obj
+ 0001:000004f0       ?SetBlendFrame@C3DRoleEx@@UAEXK@Z 100014f0 f   3DRoleEx.obj
+ 0001:00000560       ?SetFrameEx@C3DRoleEx@@UAE_NKPBD@Z 10001560 f   3DRoleEx.obj
+ 0001:00000690       ?SetBlendFrameEx@C3DRoleEx@@UAE_NKPBD@Z 10001690 f   3DRoleEx.obj
+ 0001:000007c0       ?SetColor@C3DRoleEx@@UAEXMMMM@Z 100017c0 f   3DRoleEx.obj
+ 0001:00000850       ?SetColorEx@C3DRoleEx@@UAE_NMMMMPBD0I@Z 10001850 f   3DRoleEx.obj
+ 0001:000009c0       ?SetTexture@C3DRoleEx@@UAEXPAVC3DTexture@@0PBD@Z 100019c0 f   3DRoleEx.obj
+ 0001:00000b50       ?SetTexMixOpt@C3DRoleEx@@UAEXHPBD@Z 10001b50 f   3DRoleEx.obj
+ 0001:00000ce0       ?SetTextureShader@C3DRoleEx@@UAEXHKPBD@Z 10001ce0 f   3DRoleEx.obj
+ 0001:00000e70       ?AddEffect@C3DRoleEx@@UAEXPBD0_N@Z 10001e70 f   3DRoleEx.obj
+ 0001:00001000       ?ClrEffect@C3DRoleEx@@UAEXPBD0@Z 10002000 f   3DRoleEx.obj
+ 0001:00001190       ?GetPartInfo@C3DRoleEx@@AAEPAUROLE_PART_DESC@@PBD@Z 10002190 f   3DRoleEx.obj
+ 0001:000012a0       ?SetPartInfo@C3DRoleEx@@UAEXPBD00@Z 100022a0 f   3DRoleEx.obj
+ 0001:000014e0       ?BindPartToBodyBone@C3DRoleEx@@UAEXPBD00@Z 100024e0 f   3DRoleEx.obj
+ 0001:00001670       ?SetPartMotion@C3DRoleEx@@UAEXPBDPAVC3DMotion@@@Z 10002670 f   3DRoleEx.obj
+ 0001:000016b0       ?SetPartBlendMotion@C3DRoleEx@@UAEXPBDPAVC3DMotion@@M@Z 100026b0 f   3DRoleEx.obj
+ 0001:000016e0       ?SetPartDefaultMotion@C3DRoleEx@@UAEXPBD@Z 100026e0 f   3DRoleEx.obj
+ 0001:00001700       ?ClrPartMotion@C3DRoleEx@@UAEXPBD@Z 10002700 f   3DRoleEx.obj
+ 0001:00001720       ?SetPartSelfMatrix@C3DRoleEx@@UAE_NPBDPAUD3DXMATRIX@@@Z 10002720 f   3DRoleEx.obj
+ 0001:00001770       ?AddPart@C3DRoleEx@@UAE_NPBD00IPBUD3DXMATRIX@@@Z 10002770 f   3DRoleEx.obj
+ 0001:00001b00       ?Reload@C3DRoleEx@@UAE_NXZ 10002b00 f   3DRoleEx.obj
+ 0001:00001b70       ?MergePart@C3DRoleEx@@UAE_NPBD0I@Z 10002b70 f   3DRoleEx.obj
+ 0001:00001ba0       ?DepartPart@C3DRoleEx@@UAE_NPBD0I@Z 10002ba0 f   3DRoleEx.obj
+ 0001:00001bd0       ?IsPartResourceReady@C3DRoleEx@@UAE_NPBD@Z 10002bd0 f   3DRoleEx.obj
+ 0001:00001d40       ?DelPart@C3DRoleEx@@UAEXPBD@Z 10002d40 f   3DRoleEx.obj
+ 0001:00001ed0       ?TestPart@C3DRoleEx@@UAE_NPBD@Z 10002ed0 f   3DRoleEx.obj
+ 0001:00001fd0       ?GetPartVirtualMotionSet@C3DRoleEx@@AAEXPBUROLE_PART_DESC@@AAV?$deque@UC3MotionTracker@@V?$allocator@UC3MotionTracker@@@std@@@std@@@Z 10002fd0 f   3DRoleEx.obj
+ 0001:00002270       ?CalculateVirtualMotion@C3DRoleEx@@UAE_NPBD0AAUD3DXMATRIX@@@Z 10003270 f   3DRoleEx.obj
+ 0001:000024f0       ?Draw@C3DRoleEx@@UAEXPBDABUD3DXMATRIX@@1_N@Z 100034f0 f   3DRoleEx.obj
+ 0001:000027e0       ?HitTest@C3DRoleEx@@UAE_NHHHHPBD@Z 100037e0 f   3DRoleEx.obj
+ 0001:000028c0       ?ProbeIntersection@C3DRoleEx@@UAE_NHHAAMPBD@Z 100038c0 f   3DRoleEx.obj
+ 0001:000029b0       ?ProbeObjInfo@C3DRoleEx@@UAE_NHH_NAAMAAEPBD@Z 100039b0 f   3DRoleEx.obj
+ 0001:00002ab0       ?ProbeRoleInfo@C3DRoleEx@@UAE_NHH_NAAMAAE@Z 10003ab0 f   3DRoleEx.obj
+ 0001:00002bb0       ?SetMirror@C3DRoleEx@@UAEX_N@Z 10003bb0 f   3DRoleEx.obj
+ 0001:00002bc0       ?TestEffect@C3DRoleEx@@UAE_NPBD0@Z 10003bc0 f   3DRoleEx.obj
+ 0001:00002d70       ?GetGame3DEffect@C3DRoleEx@@UAEPAVCGame3DEffectEx@@PBD@Z 10003d70 f   3DRoleEx.obj
+ 0001:00002da0       ?AddPartEffect@C3DRoleEx@@UAEXPBD00_N@Z 10003da0 f   3DRoleEx.obj
+ 0001:00002ed0       ?AddEffectBindToBone@C3DRoleEx@@UAEXPBD00_N@Z 10003ed0 f   3DRoleEx.obj
+ 0001:00003000       ?ChangeTextureMap@C3DRoleEx@@UAEXIIHPBD@Z 10004000 f   3DRoleEx.obj
+ 0001:000031a0       ?SetTransform@C3DRoleEx@@UAEXABUD3DXMATRIX@@0@Z 100041a0 f   3DRoleEx.obj
+ 0001:00003480       ?SetMaterial@C3DRoleEx@@UAE_NABUD3DMATERIAL@@@Z 10004480 f   3DRoleEx.obj
+ 0001:000034b0       _I3DRoleCreate             100044b0 f   3DRoleEx.obj
+ 0001:000034d0       _LoadAdjustConfig          100044d0 f   3DRoleEx.obj
+ 0001:00003560       _SyncObliqueAngle          10004560 f   3DRoleEx.obj
+ 0001:00003590       ??1?$deque@UC3MotionTracker@@V?$allocator@UC3MotionTracker@@@std@@@std@@QAE@XZ 10004590 f i 3DRoleEx.obj
+ 0001:00003640       ??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@std@@QAE@XZ 10004640 f i 3DRoleEx.obj
+ 0001:00003680       ?insert@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@_N@2@ABU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@@Z 10004680 f i 3DRoleEx.obj
+ 0001:00003780       ?begin@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@QAE?AViterator@12@XZ 10004780 f i 3DRoleEx.obj
+ 0001:00003790       ?erase@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@QAE?AViterator@12@V312@@Z 10004790 f i 3DRoleEx.obj
+ 0001:00003bc0       ?erase@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@QAE?AViterator@12@V312@0@Z 10004bc0 f i 3DRoleEx.obj
+ 0001:00003ca0       ?find@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@QAE?AViterator@12@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 10004ca0 f i 3DRoleEx.obj
+ 0001:00003d30       ?_Inc@const_iterator@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@QAEXXZ 10004d30 f i 3DRoleEx.obj
+ 0001:00003d80       ??1ROLE_PART_DESC@@QAE@XZ  10004d80 f i 3DRoleEx.obj
+ 0001:00003e30       ?lower_bound@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@QAE?AViterator@12@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 10004e30 f i 3DRoleEx.obj
+ 0001:00003e90       ?Release@C3DRoleEx@@UAEKXZ 10004e90 f i 3DRoleEx.obj
+ 0001:00003eb0       ?_Erase@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@IAEXPAU_Node@12@@Z 10004eb0 f i 3DRoleEx.obj
+ 0001:00003f00       ?SetShadowInfo@C3DRoleEx@@UAEXHMMMMMMM@Z 10004f00 f i 3DRoleEx.obj
+ 0001:00003f50       ?SetBlendMode@C3DRoleEx@@UAEXHH@Z 10004f50 f i 3DRoleEx.obj
+ 0001:00003f70       ?_Min@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@KAPAU_Node@12@PAU312@@Z 10004f70 f i 3DRoleEx.obj
+ 0001:00003f90       ??Eiterator@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@QAE?AV012@H@Z 10004f90 f i 3DRoleEx.obj
+ 0001:00003ff0       ?_Insert@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@@Z 10004ff0 f i 3DRoleEx.obj
+ 0001:00004260       ?_Lbound@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@IBEPAU_Node@12@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 10005260 f i 3DRoleEx.obj
+ 0001:000042b0       ?_Buynode@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@IAEPAU_Node@12@PAU312@W4_Redbl@12@@Z 100052b0 f i 3DRoleEx.obj
+ 0001:000042d0       ??0const_iterator@?$deque@UC3MotionTracker@@V?$allocator@UC3MotionTracker@@@std@@@std@@QAE@PAUC3MotionTracker@@PAPAU3@@Z 100052d0 f i 3DRoleEx.obj
+ 0001:00004300       ?_Add@const_iterator@?$deque@UC3MotionTracker@@V?$allocator@UC3MotionTracker@@@std@@@std@@IAEXH@Z 10005300 f i 3DRoleEx.obj
+ 0001:000043b0       ?_Dec@const_iterator@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@QAEXXZ 100053b0 f i 3DRoleEx.obj
+ 0001:00004410       ?copy@std@@YAPAPAUC3MotionTracker@@PAPAU2@00@Z 10005410 f i 3DRoleEx.obj
+ 0001:00004440       ?_Construct@std@@YAXPAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@1@ABU21@@Z 10005440 f i 3DRoleEx.obj
+ 0001:000045a0       ??3@YAXPAX0@Z              100055a0 f i 3DRoleEx.obj
+ 0001:000045b0       ??_G?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@std@@QAEPAXI@Z 100055b0 f i 3DRoleEx.obj
+ 0001:000045d0       ??0C3DRolePart@@QAE@XZ     100055d0 f   3DRolePart.obj
+ 0001:00004680       ??1C3DRolePart@@QAE@XZ     10005680 f   3DRolePart.obj
+ 0001:000046d0       ?Create@C3DRolePart@@QAE_NPBDIPBUD3DXMATRIX@@@Z 100056d0 f   3DRolePart.obj
+ 0001:00004740       ?Reload@C3DRolePart@@QAE_NPBD@Z 10005740 f   3DRolePart.obj
+ 0001:000047a0       ?SetSelfMatrix@C3DRolePart@@QAEXPAUD3DXMATRIX@@@Z 100057a0 f   3DRolePart.obj
+ 0001:00004800       ?Merge@C3DRolePart@@QAE_NPBDI@Z 10005800 f   3DRolePart.obj
+ 0001:000048a0       ?Depart@C3DRolePart@@QAE_NPBDI@Z 100058a0 f   3DRolePart.obj
+ 0001:000049c0       ?Destroy@C3DRolePart@@QAEXXZ 100059c0 f   3DRolePart.obj
+ 0001:00004a10       ?SetARGB@C3DRolePart@@QAEXMMMM@Z 10005a10 f   3DRolePart.obj
+ 0001:00004a80       ?SetColorEx@C3DRolePart@@QAE_NMMMMPBDI@Z 10005a80 f   3DRolePart.obj
+ 0001:00004bb0       ?SetFrame@C3DRolePart@@QAEXK@Z 10005bb0 f   3DRolePart.obj
+ 0001:00004c10       ?SetBlendFrame@C3DRolePart@@QAEXK@Z 10005c10 f   3DRolePart.obj
+ 0001:00004c70       ?GetMaxFrameCount@C3DRolePart@@QAEKXZ 10005c70 f   3DRolePart.obj
+ 0001:00004cf0       ?IsResourceReady@C3DRolePart@@QAE_NXZ 10005cf0 f   3DRolePart.obj
+ 0001:00004d60       ?IsMeshResReady@C3DRolePart@@QAE_NXZ 10005d60 f   3DRolePart.obj
+ 0001:00004dc0       ?Draw@C3DRolePart@@QAEXHABUD3DXVECTOR3@@MHH_N1PAUD3DMATERIAL@@@Z 10005dc0 f   3DRolePart.obj
+ 0001:00004ef0       ?GetInfo@C3DRolePart@@QAEPAURolePartInstance@@XZ 10005ef0 f   3DRolePart.obj
+ 0001:00004f00       ?Clear3DEffect@C3DRolePart@@QAEXPBD@Z 10005f00 f   3DRolePart.obj
+ 0001:00004f30       ?AddEffect@C3DRolePart@@QAEXPBD_N01@Z 10005f30 f   3DRolePart.obj
+ 0001:00004fa0       ?SetMotion@C3DRolePart@@QAEXPAVC3DMotion@@@Z 10005fa0 f   3DRolePart.obj
+ 0001:00005010       ?SetBlendMotion@C3DRolePart@@QAEXPAVC3DMotion@@M@Z 10006010 f   3DRolePart.obj
+ 0001:00005070       ?IsFocus@C3DRolePart@@QAE_NABUD3DXVECTOR3@@0@Z 10006070 f   3DRolePart.obj
+ 0001:00005190       ?IsFocusEx@C3DRolePart@@QAE_NABUD3DXVECTOR3@@0@Z 10006190 f   3DRolePart.obj
+ 0001:00005340       ?GetVirtualMotionTracker@C3DRolePart@@QAE?AUC3MotionTracker@@PBD@Z 10006340 f   3DRolePart.obj
+ 0001:00005420       ?GetMatrixWorld@C3DRolePart@@QAE?AUD3DXMATRIX@@HH@Z 10006420 f   3DRolePart.obj
+ 0001:00005570       ?SetTransform@C3DRolePart@@QAEXABUD3DXMATRIX@@0@Z 10006570 f   3DRolePart.obj
+ 0001:00005610       ?ClearMatrix@C3DRolePart@@QAEXXZ 10006610 f   3DRolePart.obj
+ 0001:00005670       ?SetTexture@C3DRolePart@@QAEXPAVC3DTexture@@0@Z 10006670 f   3DRolePart.obj
+ 0001:00005750       ?SetTexMixOpt@C3DRolePart@@QAEXHK@Z 10006750 f   3DRolePart.obj
+ 0001:000057c0       ?SetDefaultMotion@C3DRolePart@@QAEXXZ 100067c0 f   3DRolePart.obj
+ 0001:00005880       ?TestEffect@C3DRolePart@@QAE_NPBD@Z 10006880 f   3DRolePart.obj
+ 0001:000058b0       ?ProbeIntersection@C3DRolePart@@QAE_NABUD3DXVECTOR3@@0_NAAMPAE@Z 100068b0 f   3DRolePart.obj
+ 0001:00005a00       ?GetGame3DEffect@C3DRolePart@@QAEAAVCGame3DEffectEx@@XZ 10006a00 f   3DRolePart.obj
+ 0001:00005a10       ?ChangeTextureResID@C3DRolePart@@QAEXII@Z 10006a10 f   3DRolePart.obj
+ 0001:00005a50       ?ChangeTexMixOpt@C3DRolePart@@QAEXH@Z 10006a50 f   3DRolePart.obj
+ 0001:00005a80       ?GetModelVertexData@C3DRolePart@@QAEPAUC3_PUBLIC_MODEL_VERTEX@@AAH0H@Z 10006a80 f   3DRolePart.obj
+ 0001:00005ae0       ?GetTriangleData@C3DRolePart@@QAEPAGAAHH@Z 10006ae0 f   3DRolePart.obj
+ 0001:00005b30       ??DD3DXMATRIX@@QBE?AU0@ABU0@@Z 10006b30 f i 3DRolePart.obj
+ 0001:00005ee0       ??0C3DSimpleObjX@@QAE@XZ   10006ee0 f   3DSimpleObj.obj
+ 0001:00005ff0       ??_GC3DSimpleObjX@@UAEPAXI@Z 10006ff0 f i 3DSimpleObj.obj
+ 0001:00005ff0       ??_EC3DSimpleObjX@@UAEPAXI@Z 10006ff0 f i 3DSimpleObj.obj
+ 0001:00006010       ??1C3DSimpleObjX@@UAE@XZ   10007010 f   3DSimpleObj.obj
+ 0001:00006040       ?Release@C3DSimpleObjX@@UAEKXZ 10007040 f   3DSimpleObj.obj
+ 0001:00006060       ?SetScale@C3DSimpleObjX@@UAEXMMM@Z 10007060 f   3DSimpleObj.obj
+ 0001:000060a0       ?SetRotate@C3DSimpleObjX@@UAEXMMM@Z 100070a0 f   3DSimpleObj.obj
+ 0001:000060e0       ?SetPos@C3DSimpleObjX@@UAEXHHHHM@Z 100070e0 f   3DSimpleObj.obj
+ 0001:00006130       ?SetPosition@C3DSimpleObjX@@UAEXMMM@Z 10007130 f   3DSimpleObj.obj
+ 0001:00006170       ?Draw2BG@C3DSimpleObjX@@UAE_NHHHH@Z 10007170 f   3DSimpleObj.obj
+ 0001:000063f0       ?Draw3D@C3DSimpleObjX@@UAE_NABUD3DXMATRIX@@0HHPAUD3DMATERIAL@@@Z 100073f0 f   3DSimpleObj.obj
+ 0001:00006490       ?HitTest@C3DSimpleObjX@@UAE_NHHHH@Z 10007490 f   3DSimpleObj.obj
+ 0001:00006510       ?HitTest3D@C3DSimpleObjX@@UAE_NHHABUD3DXMATRIX@@0@Z 10007510 f   3DSimpleObj.obj
+ 0001:000065b0       ?SetLightOffset@C3DSimpleObjX@@UAEXHMMMMMMM@Z 100075b0 f   3DSimpleObj.obj
+ 0001:00006600       ?SetShadowInfo@C3DSimpleObjX@@UAEXHMMMM@Z 10007600 f   3DSimpleObj.obj
+ 0001:00006650       ?ProbeIntersection@C3DSimpleObjX@@UAE_NHHAAM@Z 10007650 f   3DSimpleObj.obj
+ 0001:000066e0       ?ProbeObjInfo@C3DSimpleObjX@@UAE_NHH_NAAMAAE@Z 100076e0 f   3DSimpleObj.obj
+ 0001:00006770       ?Create@C3DSimpleObjX@@UAE_NI@Z 10007770 f   3DSimpleObj.obj
+ 0001:00006960       ?Create@C3DSimpleObjX@@QAE_NIIIHHH@Z 10007960 f   3DSimpleObj.obj
+ 0001:00006a70       ?CreateProcedure@C3DSimpleObjX@@QAE_NIIHHH@Z 10007a70 f   3DSimpleObj.obj
+ 0001:00006b80       ?AddProcPhy@C3DSimpleObjX@@UAE_NKPAUD3DXVECTOR3@@PAUD3DXVECTOR2@@0@Z 10007b80 f   3DSimpleObj.obj
+ 0001:00006bf0       ?AddProcPhyEx@C3DSimpleObjX@@UAE_NKKHPAUD3DXVECTOR3@@PAUD3DXVECTOR2@@0PAKPAG@Z 10007bf0 f   3DSimpleObj.obj
+ 0001:00006c70       ?ClearProcPhy@C3DSimpleObjX@@UAEXXZ 10007c70 f   3DSimpleObj.obj
+ 0001:00006cd0       ?SetObjMotion@C3DSimpleObjX@@UAEX_J@Z 10007cd0 f   3DSimpleObj.obj
+ 0001:00006d40       ?SetARGB@C3DSimpleObjX@@UAEXMMMM@Z 10007d40 f   3DSimpleObj.obj
+ 0001:00006d90       ?SetTexture@C3DSimpleObjX@@UAEXPAVC3DTexture@@0H@Z 10007d90 f   3DSimpleObj.obj
+ 0001:00006df0       ?SetMixOperation@C3DSimpleObjX@@UAEXH@Z 10007df0 f   3DSimpleObj.obj
+ 0001:00006e30       ?SetTextureShader@C3DSimpleObjX@@UAEXHK@Z 10007e30 f   3DSimpleObj.obj
+ 0001:00006e70       ?SetTexture2@C3DSimpleObjX@@UAEXPAVC3DTexture@@0HK@Z 10007e70 f   3DSimpleObj.obj
+ 0001:00006ec0       ?SetFrame@C3DSimpleObjX@@UAEXK@Z 10007ec0 f   3DSimpleObj.obj
+ 0001:00006f00       ?SetMotion@C3DSimpleObjX@@UAEXPAVC3DMotion@@@Z 10007f00 f   3DSimpleObj.obj
+ 0001:00006f50       ?AddEffect@C3DSimpleObjX@@UAEXPBD@Z 10007f50 f   3DSimpleObj.obj
+ 0001:00006f90       ?GetMaxFrameCount@C3DSimpleObjX@@UAEKXZ 10007f90 f   3DSimpleObj.obj
+ 0001:00006fc0       ?SetStatic@C3DSimpleObjX@@UAEX_N@Z 10007fc0 f   3DSimpleObj.obj
+ 0001:00006fd0       ?SetMirror@C3DSimpleObjX@@UAEX_N@Z 10007fd0 f   3DSimpleObj.obj
+ 0001:00006fe0       ?ChangeTextureMap@C3DSimpleObjX@@UAEXIIH@Z 10007fe0 f   3DSimpleObj.obj
+ 0001:00007030       ?BindEffect@C3DSimpleObjX@@UAEXPBD0@Z 10008030 f   3DSimpleObj.obj
+ 0001:00007080       ?Reload@C3DSimpleObjX@@UAE_NXZ 10008080 f   3DSimpleObj.obj
+ 0001:000071c0       ?GetModelVertexData@C3DSimpleObjX@@UAEPAUC3_PUBLIC_MODEL_VERTEX@@AAH0H@Z 100081c0 f   3DSimpleObj.obj
+ 0001:00007200       ?GetTriangleData@C3DSimpleObjX@@UAEPAGAAHH@Z 10008200 f   3DSimpleObj.obj
+ 0001:00007240       _Simple3DObjCreate         10008240 f   3DSimpleObj.obj
+ 0001:00007290       _Simple3DObjCreate2        10008290 f   3DSimpleObj.obj
+ 0001:000072f0       _Simple3DProcedureObjCreate 100082f0 f   3DSimpleObj.obj
+ 0001:00007350       ?SetDeep@C3DSimpleObjX@@UAEXM@Z 10008350 f i 3DSimpleObj.obj
+ 0001:00007360       ?SetRotateX@C3DSimpleObjX@@UAEXH@Z 10008360 f i 3DSimpleObj.obj
+ 0001:00007370       ?SetOblique@C3DSimpleObjX@@UAEX_N@Z 10008370 f i 3DSimpleObj.obj
+ 0001:00007380       ?SetShadowType@C3DSimpleObjX@@UAEXH@Z 10008380 f i 3DSimpleObj.obj
+ 0001:00007390       ??1GameTitleEffectInfo@@QAE@XZ 10008390 f   Game3DEffectEx.obj
+ 0001:000073e0       ??1Game3DEffectIdInfo@@QAE@XZ 100083e0 f i Game3DEffectEx.obj
+ 0001:00007410       _Game3DEffectCreate        10008410 f   Game3DEffectEx.obj
+ 0001:00007430       ??0CGame3DEffectEx2@@QAE@PAVI3DEffectEvent@@@Z 10008430 f   Game3DEffectEx.obj
+ 0001:000074f0       ??_GCGame3DEffectEx2@@UAEPAXI@Z 100084f0 f i Game3DEffectEx.obj
+ 0001:000074f0       ??_ECGame3DEffectEx2@@UAEPAXI@Z 100084f0 f i Game3DEffectEx.obj
+ 0001:00007510       ??1CGame3DEffectEx2@@UAE@XZ 10008510 f   Game3DEffectEx.obj
+ 0001:000075f0       ?Show@CGame3DEffectEx2@@UAEXUC3_POS@@H@Z 100085f0 f   Game3DEffectEx.obj
+ 0001:000076f0       ?Release@CGame3DEffectEx2@@UAEKXZ 100086f0 f   Game3DEffectEx.obj
+ 0001:00007710       ?Show3D@CGame3DEffectEx2@@UAEXABUD3DXMATRIX@@H@Z 10008710 f   Game3DEffectEx.obj
+ 0001:00007800       ?Show@CGame3DEffectEx2@@QAEXPAVC3DRolePart@@@Z 10008800 f   Game3DEffectEx.obj
+ 0001:00007890       ?Show@CGame3DEffectEx2@@AAEXPAUGameTitleEffectInfo@@PAVC3DRolePart@@@Z 10008890 f   Game3DEffectEx.obj
+ 0001:00007de0       ?Show@CGame3DEffectEx2@@AAEXPAUGameTitleEffectInfo@@UC3_POS@@@Z 10008de0 f   Game3DEffectEx.obj
+ 0001:00008270       ?Show3D@CGame3DEffectEx2@@AAEXPAUGameTitleEffectInfo@@ABUD3DXMATRIX@@@Z 10009270 f   Game3DEffectEx.obj
+ 0001:00008620       ?ResetMovement@CGame3DEffectEx2@@UAEXXZ 10009620 f   Game3DEffectEx.obj
+ 0001:000087b0       ?SetMatrix@CGame3DEffectEx2@@UAEXABUD3DXMATRIX@@H@Z 100097b0 f   Game3DEffectEx.obj
+ 0001:000088a0       ?Move@CGame3DEffectEx2@@UAEXMMMH_N@Z 100098a0 f   Game3DEffectEx.obj
+ 0001:000089b0       ?Rotate@CGame3DEffectEx2@@UAEXMMMH_N@Z 100099b0 f   Game3DEffectEx.obj
+ 0001:00008ac0       ?RotateZ@CGame3DEffectEx2@@UAEXHH@Z 10009ac0 f   Game3DEffectEx.obj
+ 0001:00008b60       ?Scale@CGame3DEffectEx2@@UAEXMMMH_N@Z 10009b60 f   Game3DEffectEx.obj
+ 0001:00008c70       ?SetColor@CGame3DEffectEx2@@UAEXKH_N@Z 10009c70 f   Game3DEffectEx.obj
+ 0001:00008d20       ?SetBlend@CGame3DEffectEx2@@UAEXKKHH@Z 10009d20 f   Game3DEffectEx.obj
+ 0001:00008df0       ?SetHeight@CGame3DEffectEx2@@UAEXM@Z 10009df0 f   Game3DEffectEx.obj
+ 0001:00008e00       ?IsResourceReady@CGame3DEffectEx2@@AAE_NPAUGameTitleEffectInfo@@@Z 10009e00 f   Game3DEffectEx.obj
+ 0001:00008e70       ?GetFrameAmount@CGame3DEffectEx2@@UAEHH@Z 10009e70 f   Game3DEffectEx.obj
+ 0001:00008f70       ?InitGameIDEffectInfo@CGame3DEffectEx2@@AAEXPAVC3DEffect@@PAUGame3DEffectIdInfo@@@Z 10009f70 f   Game3DEffectEx.obj
+ 0001:00008fe0       ?Process@CGame3DEffectEx2@@AAE_NPAUGameTitleEffectInfo@@@Z 10009fe0 f   Game3DEffectEx.obj
+ 0001:00009220       ?Process@CGame3DEffectEx2@@UAE_NXZ 1000a220 f   Game3DEffectEx.obj
+ 0001:00009400       ?Clear@CGame3DEffectEx2@@UAEXXZ 1000a400 f   Game3DEffectEx.obj
+ 0001:000095d0       ?Delete@CGame3DEffectEx2@@UAEXPBD@Z 1000a5d0 f   Game3DEffectEx.obj
+ 0001:00009790       ?Delete@CGame3DEffectEx2@@UAEXH@Z 1000a790 f   Game3DEffectEx.obj
+ 0001:00009930       ?Add@CGame3DEffectEx2@@UAEHPBD_N@Z 1000a930 f   Game3DEffectEx.obj
+ 0001:00009950       ?Add@CGame3DEffectEx2@@QAEHPBD0_N1@Z 1000a950 f   Game3DEffectEx.obj
+ 0001:0000a0b0       ??0Game3DEffectIdInfo@@QAE@XZ 1000b0b0 f i Game3DEffectEx.obj
+ 0001:0000a0d0       ?AddImmediate@CGame3DEffectEx2@@UAEHPBD0_N@Z 1000b0d0 f   Game3DEffectEx.obj
+ 0001:0000a830       ?AddOnlyShell@CGame3DEffectEx2@@UAEHPBD_N@Z 1000b830 f   Game3DEffectEx.obj
+ 0001:0000aeb0       ?Pause@CGame3DEffectEx2@@UAEXH@Z 1000beb0 f   Game3DEffectEx.obj
+ 0001:0000af50       ?Continue@CGame3DEffectEx2@@UAEXH@Z 1000bf50 f   Game3DEffectEx.obj
+ 0001:0000b010       ?SetFrame@CGame3DEffectEx2@@UAEXHH@Z 1000c010 f   Game3DEffectEx.obj
+ 0001:0000b0b0       ?SetElapseTime@CGame3DEffectEx2@@UAEXKH@Z 1000c0b0 f   Game3DEffectEx.obj
+ 0001:0000b150       ?EverPlay@CGame3DEffectEx2@@UAEXH@Z 1000c150 f   Game3DEffectEx.obj
+ 0001:0000b1e0       ?TestEffect@CGame3DEffectEx2@@UAE_NPBD@Z 1000c1e0 f   Game3DEffectEx.obj
+ 0001:0000b2a0       ?SetOffset@CGame3DEffectEx2@@UAEXHHHH@Z 1000c2a0 f   Game3DEffectEx.obj
+ 0001:0000b340       ?GetEffectOffset@CGame3DEffectEx2@@UAE_NHAAH00@Z 1000c340 f   Game3DEffectEx.obj
+ 0001:0000b3e0       ?SetTexture@CGame3DEffectEx2@@UAEXHHH@Z 1000c3e0 f   Game3DEffectEx.obj
+ 0001:0000b4c0       ?FindEffect@CGame3DEffectEx2@@UAEHPBD@Z 1000c4c0 f   Game3DEffectEx.obj
+ 0001:0000b590       ?SetGravity@CGame3DEffectEx2@@UAEXUD3DXVECTOR3@@H@Z 1000c590 f   Game3DEffectEx.obj
+ 0001:0000b640       ?SetWind@CGame3DEffectEx2@@UAEXUD3DXVECTOR3@@H@Z 1000c640 f   Game3DEffectEx.obj
+ 0001:0000b6f0       ?Reload@CGame3DEffectEx2@@UAE_NXZ 1000c6f0 f   Game3DEffectEx.obj
+ 0001:0000ba00       ?SetFrameInterval@CGame3DEffectEx2@@UAEXKH@Z 1000ca00 f   Game3DEffectEx.obj
+ 0001:0000bab0       ?GetDelayFrameCount@CGame3DEffectEx2@@UAEHH@Z 1000cab0 f   Game3DEffectEx.obj
+ 0001:0000bb40       ?SetImmediateFrame@CGame3DEffectEx2@@UAEXHH@Z 1000cb40 f   Game3DEffectEx.obj
+ 0001:0000bc00       ?SetResourceFrame@CGame3DEffectEx2@@UAEXK@Z 1000cc00 f   Game3DEffectEx.obj
+ 0001:0000bca0       ?SetLoopTime@CGame3DEffectEx2@@UAEXKH@Z 1000cca0 f   Game3DEffectEx.obj
+ 0001:0000bd30       ?AllowSelfTransformInRolePart@CGame3DEffectEx2@@UAEX_N@Z 1000cd30 f   Game3DEffectEx.obj
+ 0001:0000bd40       ?GetEffectCountByName@CGame3DEffectEx2@@UAEKPBD@Z 1000cd40 f   Game3DEffectEx.obj
+ 0001:0000be30       ?FindEffectByName@CGame3DEffectEx2@@UAEHPBDH@Z 1000ce30 f   Game3DEffectEx.obj
+ 0001:0000bf40       ?Set3DMotion@CGame3DEffectEx2@@UAE_NPBDPAVC3DMotion@@H@Z 1000cf40 f   Game3DEffectEx.obj
+ 0001:0000c040       ?GetSubEffectCount@CGame3DEffectEx2@@UAEHXZ 1000d040 f   Game3DEffectEx.obj
+ 0001:0000c050       ?HitTest3D@CGame3DEffectEx2@@UAE_NHHABUD3DXMATRIX@@H@Z 1000d050 f   Game3DEffectEx.obj
+ 0001:0000c2e0       _LimitGame3DEffectLevel    1000d2e0 f   Game3DEffectEx.obj
+ 0001:0000c340       ??1?$deque@PAUGameTitleEffectInfo@@V?$allocator@PAUGameTitleEffectInfo@@@std@@@std@@QAE@XZ 1000d340 f i Game3DEffectEx.obj
+ 0001:0000c3f0       ??1?$vector@HV?$allocator@H@std@@@std@@QAE@XZ 1000d3f0 f i Game3DEffectEx.obj
+ 0001:0000c420       ?SetOffset@CGame3DEffectEx2@@UAEXH@Z 1000d420 f i Game3DEffectEx.obj
+ 0001:0000c430       ?SetOblique@CGame3DEffectEx2@@UAEX_N@Z 1000d430 f i Game3DEffectEx.obj
+ 0001:0000c440       ?SetEventInterface@CGame3DEffectEx2@@UAEXPAVI3DEffectEvent@@@Z 1000d440 f i Game3DEffectEx.obj
+ 0001:0000c450       ?erase@?$deque@PAUGameTitleEffectInfo@@V?$allocator@PAUGameTitleEffectInfo@@@std@@@std@@QAE?AViterator@12@V312@0@Z 1000d450 f i Game3DEffectEx.obj
+ 0001:0000c790       ?_Freefront@?$deque@PAUGameTitleEffectInfo@@V?$allocator@PAUGameTitleEffectInfo@@@std@@@std@@IAEXXZ 1000d790 f i Game3DEffectEx.obj
+ 0001:0000c810       ?_Growmap@?$deque@PAUGameTitleEffectInfo@@V?$allocator@PAUGameTitleEffectInfo@@@std@@@std@@IAEPAPAPAUGameTitleEffectInfo@@I@Z 1000d810 f i Game3DEffectEx.obj
+ 0001:0000c880       ?_Add@const_iterator@?$deque@PAUGameTitleEffectInfo@@V?$allocator@PAUGameTitleEffectInfo@@@std@@@std@@IAEXH@Z 1000d880 f i Game3DEffectEx.obj
+ 0001:0000c8f0       ?insert@?$vector@HV?$allocator@H@std@@@std@@QAEXPAHIABH@Z 1000d8f0 f i Game3DEffectEx.obj
+ 0001:0000cb00       ?_Freeback@?$deque@PAUGameTitleEffectInfo@@V?$allocator@PAUGameTitleEffectInfo@@@std@@@std@@IAEXXZ 1000db00 f i Game3DEffectEx.obj
+ 0001:0000cb90       ??0const_iterator@?$deque@PAUGameTitleEffectInfo@@V?$allocator@PAUGameTitleEffectInfo@@@std@@@std@@QAE@PAPAUGameTitleEffectInfo@@PAPAPAU3@@Z 1000db90 f i Game3DEffectEx.obj
+ 0001:0000cbc0       ??Eiterator@?$deque@PAUGameTitleEffectInfo@@V?$allocator@PAUGameTitleEffectInfo@@@std@@@std@@QAEAAV012@XZ 1000dbc0 f i Game3DEffectEx.obj
+ 0001:0000cc00       ??Fiterator@?$deque@PAUGameTitleEffectInfo@@V?$allocator@PAUGameTitleEffectInfo@@@std@@@std@@QAEAAV012@XZ 1000dc00 f i Game3DEffectEx.obj
+ 0001:0000cc40       _DllMain@12                1000dc40 f   Role3D.obj
+ 0001:0000cc50       ??3@YAXPAX@Z               1000dc50 f   msvcprt:delop_s.obj
+ 0001:0000cc5c       __purecall                 1000dc5c f   MSVCRT:MSVCRT.dll
+ 0001:0000cc62       ??2@YAPAXI@Z               1000dc62 f   MSVCRT:MSVCRT.dll
+ 0001:0000cc70       ___CxxFrameHandler         1000dc70 f   MSVCRT:MSVCRT.dll
+ 0001:0000cc76       _free                      1000dc76 f   MSVCRT:MSVCRT.dll
+ 0001:0000cc7c       ??_M@YGXPAXIHP6EX0@Z@Z     1000dc7c f   MSVCRT:ehvecdtr.obj
+ 0001:0000ccfc       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000dcfc f   MSVCRT:ehvecdtr.obj
+ 0001:0000cd70       ??_L@YGXPAXIHP6EX0@Z1@Z    1000dd70 f   MSVCRT:ehvecctr.obj
+ 0001:0000cdf2       __CRT_INIT@12              1000ddf2 f   MSVCRT:crtdll.obj
+ 0001:0000ce9d       __DllMainCRTStartup@12     1000de9d f   MSVCRT:crtdll.obj
+ 0001:0000cf3a       __except_handler3          1000df3a f   MSVCRT:MSVCRT.dll
+ 0001:0000cf40       ?terminate@@YAXXZ          1000df40 f   MSVCRT:MSVCRT.dll
+ 0001:0000cf46       __initterm                 1000df46 f   MSVCRT:MSVCRT.dll
+ 0002:00000000       __imp__GameDataSetQuery    1000f000     GraphicData:GraphicData.dll
+ 0002:00000004       \177GraphicData_NULL_THUNK_DATA 1000f004     GraphicData:GraphicData.dll
+ 0002:00000008       __imp_?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB 1000f008     msvcprt:MSVCP60.dll
+ 0002:0000000c       __imp_?_Xran@std@@YAXXZ    1000f00c     msvcprt:MSVCP60.dll
+ 0002:00000010       __imp_?_Split@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ 1000f010     msvcprt:MSVCP60.dll
+ 0002:00000014       __imp_?_C@?1??_Nullstr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPBDXZ@4DB 1000f014     msvcprt:MSVCP60.dll
+ 0002:00000018       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1000f018     msvcprt:MSVCP60.dll
+ 0002:0000001c       __imp_?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 1000f01c     msvcprt:MSVCP60.dll
+ 0002:00000020       __imp_?_Xlen@std@@YAXXZ    1000f020     msvcprt:MSVCP60.dll
+ 0002:00000024       __imp_?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z 1000f024     msvcprt:MSVCP60.dll
+ 0002:00000028       __imp_?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z 1000f028     msvcprt:MSVCP60.dll
+ 0002:0000002c       __imp_?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAE_NI_N@Z 1000f02c     msvcprt:MSVCP60.dll
+ 0002:00000030       __imp_?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 1000f030     msvcprt:MSVCP60.dll
+ 0002:00000034       __imp_??Mstd@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z 1000f034     msvcprt:MSVCP60.dll
+ 0002:00000038       __imp_?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEX_N@Z 1000f038     msvcprt:MSVCP60.dll
+ 0002:0000003c       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 1000f03c     msvcprt:MSVCP60.dll
+ 0002:00000040       __imp_??0_Lockit@std@@QAE@XZ 1000f040     msvcprt:MSVCP60.dll
+ 0002:00000044       __imp_??1_Lockit@std@@QAE@XZ 1000f044     msvcprt:MSVCP60.dll
+ 0002:00000048       \177MSVCP60_NULL_THUNK_DATA 1000f048     msvcprt:MSVCP60.dll
+ 0002:0000004c       __imp___adjust_fdiv        1000f04c     MSVCRT:MSVCRT.dll
+ 0002:00000050       __imp__malloc              1000f050     MSVCRT:MSVCRT.dll
+ 0002:00000054       __imp___initterm           1000f054     MSVCRT:MSVCRT.dll
+ 0002:00000058       __imp_?terminate@@YAXXZ    1000f058     MSVCRT:MSVCRT.dll
+ 0002:0000005c       __imp___except_handler3    1000f05c     MSVCRT:MSVCRT.dll
+ 0002:00000060       __imp___strdup             1000f060     MSVCRT:MSVCRT.dll
+ 0002:00000064       __imp__free                1000f064     MSVCRT:MSVCRT.dll
+ 0002:00000068       __imp__memmove             1000f068     MSVCRT:MSVCRT.dll
+ 0002:0000006c       __imp__fopen               1000f06c     MSVCRT:MSVCRT.dll
+ 0002:00000070       __imp__fscanf              1000f070     MSVCRT:MSVCRT.dll
+ 0002:00000074       __imp__fclose              1000f074     MSVCRT:MSVCRT.dll
+ 0002:00000078       __imp___stricmp            1000f078     MSVCRT:MSVCRT.dll
+ 0002:0000007c       __imp____CxxFrameHandler   1000f07c     MSVCRT:MSVCRT.dll
+ 0002:00000080       __imp_??2@YAPAXI@Z         1000f080     MSVCRT:MSVCRT.dll
+ 0002:00000084       __imp___purecall           1000f084     MSVCRT:MSVCRT.dll
+ 0002:00000088       \177MSVCRT_NULL_THUNK_DATA 1000f088     MSVCRT:MSVCRT.dll
+ 0002:0000008c       __imp__D3DXVec3TransformCoord 1000f08c     graphic:graphic.dll
+ 0002:00000090       __imp_?LogMsg@@YAXPBDZZ    1000f090     graphic:graphic.dll
+ 0002:00000094       __imp_?Motion_GetMatrix_Blend@CMyBitmap@@SAXPAXKPAUD3DXMATRIX@@@Z 1000f094     graphic:graphic.dll
+ 0002:00000098       __imp_?PrepareModel@CMyBitmap@@SAXXZ 1000f098     graphic:graphic.dll
+ 0002:0000009c       __imp_?ProbeRayBuild@CMyBitmap@@SAXHHAAUD3DXVECTOR3@@0@Z 1000f09c     graphic:graphic.dll
+ 0002:000000a0       __imp_?GetObliqueAngle@CMyBitmap@@SAHXZ 1000f0a0     graphic:graphic.dll
+ 0002:000000a4       __imp_?DebugMsg@@YAXPBDZZ  1000f0a4     graphic:graphic.dll
+ 0002:000000a8       __imp__D3DXVec3TransformNormal 1000f0a8     graphic:graphic.dll
+ 0002:000000ac       __imp__D3DXMatrixInverse   1000f0ac     graphic:graphic.dll
+ 0002:000000b0       __imp_?Motion_GetMatrix@CMyBitmap@@SAXPAUC3Motion@@KPAUD3DXMATRIX@@@Z 1000f0b0     graphic:graphic.dll
+ 0002:000000b4       __imp_?Common_Rotate@CMyBitmap@@SAXPAUD3DXMATRIX@@MMM@Z 1000f0b4     graphic:graphic.dll
+ 0002:000000b8       __imp_?Common_Scale@CMyBitmap@@SAXPAUD3DXMATRIX@@MMM@Z 1000f0b8     graphic:graphic.dll
+ 0002:000000bc       __imp__ProcedureMeshCreate 1000f0bc     graphic:graphic.dll
+ 0002:000000c0       __imp__DestroyPtcl3Info    1000f0c0     graphic:graphic.dll
+ 0002:000000c4       __imp__DestroyPtclInfo     1000f0c4     graphic:graphic.dll
+ 0002:000000c8       __imp__DestroyShapeInfo    1000f0c8     graphic:graphic.dll
+ 0002:000000cc       __imp_?TimeGetTime@@YAKXZ  1000f0cc     graphic:graphic.dll
+ 0002:000000d0       __imp__D3DXMatrixMultiply  1000f0d0     graphic:graphic.dll
+ 0002:000000d4       __imp_?Common_Translate@CMyBitmap@@SAXPAUD3DXMATRIX@@MMM@Z 1000f0d4     graphic:graphic.dll
+ 0002:000000d8       \177graphic_NULL_THUNK_DATA 1000f0d8     graphic:graphic.dll
+ 0002:000000e0       ??_7C3DRoleEx@@6B@         1000f0e0     3DRoleEx.obj
+ 0002:0000018c       ??_7I3DRole@@6B@           1000f18c     3DRoleEx.obj
+ 0002:00000234       __real@4@3fff8000000000000000 1000f234     3DRolePart.obj
+ 0002:00000238       __real@4@00000000000000000000 1000f238     3DRolePart.obj
+ 0002:0000023c       ??_7C3DSimpleObjX@@6B@     1000f23c     3DSimpleObj.obj
+ 0002:000002d8       __real@4@3ff98efa350000000000 1000f2d8     3DSimpleObj.obj
+ 0002:000002dc       ??_7CGame3DEffectEx2@@6B@  1000f2dc     Game3DEffectEx.obj
+ 0002:0000039c       __real@4@3fffb333330000000000 1000f39c     Game3DEffectEx.obj
+ 0002:000003a0       __real@4@bfff8000000000000000 1000f3a0     Game3DEffectEx.obj
+ 0002:000003a4       __real@4@3ff8a3d70a3d70a3d800 1000f3a4     Game3DEffectEx.obj
+ 0002:000003a8       __real@4@3ff8a3d70a0000000000 1000f3a8     Game3DEffectEx.obj
+ 0002:00000958       __IMPORT_DESCRIPTOR_GraphicData 1000f958     GraphicData:GraphicData.dll
+ 0002:0000096c       __IMPORT_DESCRIPTOR_graphic 1000f96c     graphic:graphic.dll
+ 0002:00000980       __IMPORT_DESCRIPTOR_MSVCP60 1000f980     msvcprt:MSVCP60.dll
+ 0002:00000994       __IMPORT_DESCRIPTOR_MSVCRT 1000f994     MSVCRT:MSVCRT.dll
+ 0002:000009a8       __NULL_IMPORT_DESCRIPTOR   1000f9a8     GraphicData:GraphicData.dll
+ 0003:00000000       ___xc_a                    10011000     MSVCRT:cinitexe.obj
+ 0003:00000010       ___xc_z                    10011010     MSVCRT:cinitexe.obj
+ 0003:00000014       ___xi_a                    10011014     MSVCRT:cinitexe.obj
+ 0003:00000018       ___xi_z                    10011018     MSVCRT:cinitexe.obj
+ 0003:00000020       ?g_nErrorObliqueAngle@@3HA 10011020     3DRoleEx.obj
+ 0003:00000024       ??_C@_0CA@PDNH@?$KB?oIF_SUC?$CI?$CFs?$CJ?$KB?o?5failed?5in?5?$CFs?0?5?$CFd?$AA@ 10011024     3DRoleEx.obj
+ 0003:00000044       ??_C@_0BG@LPMM@pInfo?5?$CG?$CG?5pInfo?9?$DOpPart?$AA@ 10011044     3DRoleEx.obj
+ 0003:0000005c       ??_C@_0EP@EKOD@F?3?2cygwin?2home?2Administrator?2Pro@ 1001105c     3DRoleEx.obj
+ 0003:000000ac       ??_C@_0BJ@NHDM@?$KB?oIF_NOT?$CI?$CFs?$CJ?$KB?o?5in?5?$CFs?0?5?$CFd?$AA@ 100110ac     3DRoleEx.obj
+ 0003:000000c8       ??_C@_0M@OALM@pszPartName?$AA@ 100110c8     3DRoleEx.obj
+ 0003:000000d4       ??_C@_04KIKH@none?$AA@     100110d4     3DRoleEx.obj
+ 0003:000000dc       ??_C@_0DG@BAMM@pszPartName?5?$CG?$CG?5pszFollowPartName@ 100110dc     3DRoleEx.obj
+ 0003:00000114       ??_C@_05BBCE@pInfo?$AA@    10011114     3DRoleEx.obj
+ 0003:0000011c       ??_C@_05FHGB@pPart?$AA@    1001111c     3DRoleEx.obj
+ 0003:00000124       ??_C@_0N@JFCE@?$CFd?5?$CFd?5?$CFd?5?$CFd?6?$AA@ 10011124     3DRoleEx.obj
+ 0003:00000134       ??_C@_0P@CBFL@ini?1role3d?4ini?$AA@ 10011134     3DRoleEx.obj
+ 0003:00000144       ??_C@_01LHO@r?$AA@         10011144     3DRoleEx.obj
+ 0003:00000148       ??_C@_0CB@FCKH@CAN?5NOT?5find?5?$FL?$CFd?$FN?5in?5?$FL?$CFs?$FN?8s?5ini?4@ 10011148     3DRolePart.obj
+ 0003:0000016c       ??_C@_0N@FMAM@pCur3DMotion?$AA@ 1001116c     3DRolePart.obj
+ 0003:0000017c       ??_C@_0FB@BCKO@F?3?2cygwin?2home?2Administrator?2Pro@ 1001117c     3DRolePart.obj
+ 0003:000001d0       ??_C@_0CL@IGBF@Fail?5to?5get?5default?5motion?5with?5@ 100111d0     3DRolePart.obj
+ 0003:000001fc       ??_C@_0L@EJMO@p3DObjInfo?$AA@ 100111fc     3DRolePart.obj
+ 0003:00000208       ??_C@_0O@PHMM@m_p3DRolePart?$AA@ 10011208     3DSimpleObj.obj
+ 0003:00000218       ??_C@_0FC@HDLB@F?3?2cygwin?2home?2Administrator?2Pro@ 10011218     3DSimpleObj.obj
+ 0003:0000026c       ??_C@_0BL@LPMP@pTriVertices?5?$CG?$CG?5pTexCoords?$AA@ 1001126c     3DSimpleObj.obj
+ 0003:00000288       ??_C@_0CA@CIGO@pTriVertices?5?$CG?$CG?5dwTriangleCount?$AA@ 10011288     3DSimpleObj.obj
+ 0003:000002a8       ??_C@_04NIOK@body?$AA@     100112a8     3DSimpleObj.obj
+ 0003:000002b0       ?g_nGameEffectLevelLimit@@3HA 100112b0     Game3DEffectEx.obj
+ 0003:000002b4       ??_C@_0BB@IECC@pszTitle?5?$CB?$DN?5NULL?$AA@ 100112b4     Game3DEffectEx.obj
+ 0003:000002c8       ??_C@_0FF@OJCG@F?3?2cygwin?2home?2Administrator?2Pro@ 100112c8     Game3DEffectEx.obj
+ 0003:00000378       ?g_nRoleObliqueAngle@@3HA  10011378     3DRoleEx.obj
+ 0003:0000047c       ?g_nSimpleobjObliqueAngle@@3HA 1001147c     3DRoleEx.obj
+ 0003:000004c0       ?g_n3DEffectObliqueAngle@@3HA 100114c0     3DRoleEx.obj
+ 0003:00000660       ?g_b3DEffectErrorOrder@@3_NA 10011660     3DRoleEx.obj
+ 0003:00000664       ?_Nilrefs@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@1IA 10011664     3DRoleEx.obj
+ 0003:00000668       ?_Nil@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUROLE_PART_DESC@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@PAUROLE_PART_DESC@@@2@@std@@1PAU_Node@12@A 10011668     3DRoleEx.obj
+ 0003:0000066c       ??_C@_00A@?$AA@            1001166c     3DRoleEx.obj
+ 0003:000009a4       ?s_idEffect@CGame3DEffectEx2@@0HA 100119a4     Game3DEffectEx.obj
+ 0003:000009ac       __adjust_fdiv              100119ac     <common>
+ 0003:000009b0       ___onexitend               100119b0     <common>
+ 0003:000009b4       ___onexitbegin             100119b4     <common>
+ 0003:000009b8       __pRawDllMain              100119b8     <common>
+
+ entry point at        0001:0000ce9d
+
+ Static symbols
+
+ 0001:0000c2f0       ?D3DXMatrixScaling@@YAPAUD3DXMATRIX@@PAU1@MMM@Z 1000d2f0 f   Game3DEffectEx.obj
+ 0001:00005d70       ?D3DXBoxBoundProbe@@YA_NPBUD3DXVECTOR3@@000@Z 10006d70 f   3DRolePart.obj
+ 0001:00000000       _$E139                     10001000 f   3DRoleEx.obj
+ 0001:00000010       _$E138                     10001010 f   3DRoleEx.obj
+ 0001:00000020       _$E142                     10001020 f   3DRoleEx.obj
+ 0001:00000030       _$E141                     10001030 f   3DRoleEx.obj
+ 0001:00000040       _$E145                     10001040 f   3DRoleEx.obj
+ 0001:00000050       _$E144                     10001050 f   3DRoleEx.obj
+ 0001:0000cd5a       ?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 1000dd5a f   MSVCRT:ehvecdtr.obj
+
+Line numbers for .\Release\Role3D.obj(F:\cygwin\home\Administrator\Projects\C3Engine_Windows_GL2\Role3D\Role3D.cpp) segment .text
+
+     8 0001:0000cc40    10 0001:0000cc45
+
+Line numbers for .\Release\Game3DEffectEx.obj(F:\cygwin\home\Administrator\Projects\C3Engine_Windows_GL2\Role3D\Game3DEffectEx2.h) segment .text
+
+   114 0001:0000c420   119 0001:0000c430   130 0001:0000c440
+
+Line numbers for .\Release\Game3DEffectEx.obj(D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector) segment .text
+
+    58 0001:0000c3f0    59 0001:0000c3f7    60 0001:0000c404   156 0001:0000c8f0
+   157 0001:0000c914   158 0001:0000c937   159 0001:0000c94e   160 0001:0000c974
+   161 0001:0000c992   162 0001:0000c9bd   163 0001:0000c9c4   164 0001:0000c9ce
+   165 0001:0000c9df   166 0001:0000c9e8   176 0001:0000c9f7   165 0001:0000c9fd
+   166 0001:0000ca00   176 0001:0000ca14   167 0001:0000ca1a   168 0001:0000ca29
+   169 0001:0000ca51   170 0001:0000ca71   171 0001:0000ca85   176 0001:0000ca8a
+   172 0001:0000ca97   173 0001:0000ca9b   174 0001:0000caba   175 0001:0000cad4
+   176 0001:0000caec
+
+Line numbers for .\Release\Game3DEffectEx.obj(D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\deque) segment .text
+
+   207 0001:0000c340   208 0001:0000c350   401 0001:0000c450   402 0001:0000c4b9
+   403 0001:0000c529   404 0001:0000c57e   405 0001:0000c5f3   406 0001:0000c601
+   405 0001:0000c621   407 0001:0000c624   408 0001:0000c629   409 0001:0000c6a9
+   410 0001:0000c6b8   409 0001:0000c6e2   411 0001:0000c6e9   480 0001:0000c790
+   481 0001:0000c7a5   482 0001:0000c7b0   483 0001:0000c7c6   484 0001:0000c7cc
+   486 0001:0000c7e4   497 0001:0000c810   500 0001:0000c82f   501 0001:0000c85b
+   502 0001:0000c867   503 0001:0000c86a   504 0001:0000c86d   104 0001:0000c880
+   107 0001:0000c894   108 0001:0000c8a9   109 0001:0000c8ad   114 0001:0000c8b1
+   111 0001:0000c8b5   114 0001:0000c8c6   469 0001:0000cb00   470 0001:0000cb15
+   471 0001:0000cb1f   472 0001:0000cb29   473 0001:0000cb35   474 0001:0000cb4b
+   475 0001:0000cb54   478 0001:0000cb69    43 0001:0000cb90   131 0001:0000cbc0
+   132 0001:0000cbd8   133 0001:0000cbe4   134 0001:0000cbed   135 0001:0000cbf2
+   141 0001:0000cc00   142 0001:0000cc0b   143 0001:0000cc1c   144 0001:0000cc25
+   145 0001:0000cc28   146 0001:0000cc2d   145 0001:0000cc2e   146 0001:0000cc32
+
+Line numbers for .\Release\Game3DEffectEx.obj(../include\D3DXMathe.h) segment .text
+
+   197 0001:0000c2f0   203 0001:0000c2f4   204 0001:0000c327   205 0001:0000c32e
+   207 0001:0000c335
+
+Line numbers for .\Release\Game3DEffectEx.obj(F:\cygwin\home\Administrator\Projects\C3Engine_Windows_GL2\Role3D\Game3DEffectEx.cpp) segment .text
+
+    37 0001:00007390    38 0001:00007393    39 0001:000073be    41 0001:000073c8
+    42 0001:000073d2    44 0001:000073dd    29 0001:000073e0    30 0001:000073e3
+    31 0001:000073f1    32 0001:000073fb    33 0001:00007409    47 0001:00007410
+    49 0001:0000742a    48 0001:0000742b    49 0001:0000742d    54 0001:00007430
+    59 0001:00007467    60 0001:00007470    61 0001:00007476    63 0001:000074bc
+    64 0001:000074db    67 0001:00007510    68 0001:0000753b    69 0001:00007540
+    72 0001:000075f0    73 0001:000075f8    75 0001:00007601    76 0001:00007631
+    77 0001:00007639    81 0001:00007651    83 0001:0000765b    84 0001:000076a3
+    86 0001:000076a7    90 0001:000076b8    91 0001:000076c5    96 0001:000076d8
+    97 0001:000076e2   100 0001:000076f0   102 0001:000076fe   103 0001:00007700
+   106 0001:00007710   107 0001:00007717   109 0001:00007721   110 0001:00007751
+   111 0001:00007759   115 0001:00007771   117 0001:0000777b   118 0001:000077bf
+   120 0001:000077c3   122 0001:000077d4   126 0001:000077ed   129 0001:00007800
+   132 0001:0000780f   134 0001:0000781a   135 0001:0000785e   137 0001:00007862
+   141 0001:0000787b   144 0001:00007890   146 0001:00007899   149 0001:000078ba
+   152 0001:000078c4   156 0001:000078cc   158 0001:000078ea   160 0001:0000790d
+   161 0001:00007915   164 0001:00007920   165 0001:0000792e   167 0001:00007936
+   168 0001:0000793f   170 0001:00007941   174 0001:00007949   158 0001:0000797f
+   179 0001:00007983   181 0001:000079a8   182 0001:000079b4   185 0001:000079bf
+   186 0001:000079cd   189 0001:000079d5   191 0001:000079dc   192 0001:000079ed
+   193 0001:000079f9   196 0001:00007a08   198 0001:00007a14   200 0001:00007a16
+   205 0001:00007a1e   206 0001:00007a2d   208 0001:00007a4b   210 0001:00007a53
+   215 0001:00007a5b   218 0001:00007a6a   219 0001:00007a75   220 0001:00007a80
+   221 0001:00007aa2   225 0001:00007ac4   228 0001:00007acf   230 0001:00007b81
+   232 0001:00007b8d   233 0001:00007bb8   235 0001:00007bec   237 0001:00007bee
+   238 0001:00007c20   244 0001:00007c4d   282 0001:00007c57   261 0001:00007cdd
+   262 0001:00007ced   264 0001:00007cf4   266 0001:00007d0c   269 0001:00007d18
+   271 0001:00007d22   272 0001:00007d3d   274 0001:00007d54   276 0001:00007d56
+   279 0001:00007d89   282 0001:00007dc2   283 0001:00007dc8   286 0001:00007de0
+   287 0001:00007de7   289 0001:00007e03   293 0001:00007e0b   295 0001:00007e29
+   297 0001:00007e46   298 0001:00007e4e   301 0001:00007e59   302 0001:00007e69
+   304 0001:00007e71   305 0001:00007e7a   307 0001:00007e7c   311 0001:00007e85
+   316 0001:00007ebc   318 0001:00007eeb   319 0001:00007ef3   322 0001:00007efe
+   323 0001:00007f0f   326 0001:00007f17   328 0001:00007f1e   329 0001:00007f2f
+   331 0001:00007f37   333 0001:00007f46   335 0001:00007f4e   337 0001:00007f50
+   341 0001:00007f58   342 0001:00007f64   344 0001:00007f82   346 0001:00007f8a
+   351 0001:00007f92   354 0001:00007f9d   355 0001:00007fa8   357 0001:00007fb3
+   358 0001:00007fd5   363 0001:00007ff7   365 0001:0000804d   367 0001:00008052
+   368 0001:00008079   370 0001:000080a7   372 0001:000080a9   373 0001:000080d5
+   376 0001:000080f2   378 0001:000080f9   380 0001:00008108   382 0001:00008123
+   384 0001:00008125   396 0001:0000814c   413 0001:00008156   402 0001:000081bb
+   403 0001:000081c7   405 0001:000081de   407 0001:000081e0   410 0001:00008214
+   413 0001:00008254   414 0001:0000825a   417 0001:00008270   418 0001:00008277
+   421 0001:00008292   424 0001:0000829a   426 0001:000082b8   428 0001:000082d5
+   429 0001:000082dd   432 0001:000082e8   433 0001:000082f8   435 0001:00008300
+   436 0001:00008309   438 0001:0000830b   442 0001:00008314   447 0001:0000834b
+   449 0001:0000837a   450 0001:00008382   453 0001:0000838d   454 0001:0000839e
+   457 0001:000083a6   459 0001:000083ad   460 0001:000083be   462 0001:000083c6
+   464 0001:000083d5   466 0001:000083dd   468 0001:000083df   472 0001:000083e7
+   473 0001:000083f6   475 0001:00008414   477 0001:0000841c   482 0001:00008424
+   485 0001:0000842f   486 0001:0000843a   488 0001:00008445   489 0001:00008467
+   493 0001:00008489   494 0001:00008495   496 0001:000084bb   498 0001:000084c1
+   500 0001:000084cf   507 0001:000084d6   510 0001:000084da   512 0001:0000853e
+   513 0001:0000854d   515 0001:0000855b   517 0001:00008565   518 0001:00008580
+   520 0001:0000859a   522 0001:0000859c   525 0001:000085cb   528 0001:0000860b
+   529 0001:00008611   532 0001:00008620   533 0001:00008627   534 0001:0000864a
+   537 0001:0000866e   539 0001:000086c2   540 0001:000086f2   542 0001:000086fa
+   543 0001:0000871c   544 0001:00008741   546 0001:0000879e   549 0001:000087b0
+   550 0001:000087bd   551 0001:000087c5   553 0001:000087d6   554 0001:0000881a
+   556 0001:0000882f   558 0001:0000883a   561 0001:0000883c   562 0001:0000884d
+   564 0001:00008851   567 0001:00008870   551 0001:00008879   570 0001:0000888d
+   573 0001:000088a0   576 0001:000088ad   588 0001:000088dd   580 0001:000088e3
+   582 0001:000088f3   583 0001:00008937   585 0001:00008959   588 0001:0000899b
+   591 0001:000089b0   594 0001:000089bd   606 0001:000089ed   598 0001:000089f3
+   600 0001:00008a03   601 0001:00008a47   603 0001:00008a69   606 0001:00008aab
+   609 0001:00008ac0   610 0001:00008ac3   612 0001:00008ac7   614 0001:00008ae2
+   615 0001:00008b2a   617 0001:00008b3b   618 0001:00008b3f   612 0001:00008b4a
+   621 0001:00008b58   624 0001:00008b60   627 0001:00008b6d   639 0001:00008b9d
+   631 0001:00008ba3   633 0001:00008bb3   634 0001:00008bf7   636 0001:00008c19
+   639 0001:00008c5b   642 0001:00008c70   643 0001:00008c73   645 0001:00008c87
+   646 0001:00008cd0   648 0001:00008cf9   651 0001:00008d11   654 0001:00008d20
+   655 0001:00008d23   657 0001:00008d38   658 0001:00008d80   660 0001:00008d95
+   662 0001:00008da4   664 0001:00008dad   665 0001:00008db4   660 0001:00008dc5
+   669 0001:00008dc9   655 0001:00008dce   672 0001:00008de0   675 0001:00008df0
+   677 0001:00008df7   680 0001:00008e00   695 0001:00008e14   682 0001:00008e17
+   683 0001:00008e1f   685 0001:00008e2a   687 0001:00008e2c   688 0001:00008e3c
+   691 0001:00008e40   692 0001:00008e4f   694 0001:00008e69   695 0001:00008e6c
+   698 0001:00008e70   699 0001:00008e77   700 0001:00008e81   701 0001:00008e8b
+   703 0001:00008e9e   704 0001:00008ee2   706 0001:00008ef7   708 0001:00008f02
+   709 0001:00008f04   710 0001:00008f18   712 0001:00008f1c   706 0001:00008f3f
+   701 0001:00008f43   718 0001:00008f57   719 0001:00008f5f   718 0001:00008f65
+   719 0001:00008f69   722 0001:00008f70   726 0001:00008f7d   727 0001:00008f88
+   728 0001:00008f92   730 0001:00008f99   732 0001:00008fa3   735 0001:00008fae
+   736 0001:00008fb8   738 0001:00008fc0   739 0001:00008fca   740 0001:00008fd2
+   741 0001:00008fd8   744 0001:00008fe0   745 0001:00008fe6   747 0001:00008ff9
+   751 0001:0000900e   752 0001:0000901b   859 0001:0000901e   755 0001:00009024
+   756 0001:0000902f   758 0001:00009038   759 0001:00009042   859 0001:00009045
+   762 0001:0000904b   764 0001:00009057   765 0001:0000905e   767 0001:00009065
+   771 0001:00009070   774 0001:00009076   778 0001:00009079   771 0001:000090a6
+   780 0001:000090aa   781 0001:000090b0   782 0001:000090c2   784 0001:000090c6
+   786 0001:000090cd   790 0001:000090d8   793 0001:000090e6   796 0001:000090ed
+   798 0001:000090f1   801 0001:000090f3   803 0001:000090f9   809 0001:0000913b
+   810 0001:0000913e   813 0001:00009149   815 0001:0000914d   816 0001:00009154
+   818 0001:0000915b   859 0001:0000916d   824 0001:00009173   825 0001:0000917d
+   829 0001:00009183   833 0001:00009191   835 0001:000091a3   840 0001:000091af
+   843 0001:000091c0   858 0001:000091dd   859 0001:000091e0   848 0001:000091e6
+   852 0001:000091eb   854 0001:000091fd   858 0001:0000920c   859 0001:0000920f
+   862 0001:00009220   863 0001:00009238   867 0001:0000925a   869 0001:0000926c
+   870 0001:0000929c   872 0001:000092b4   874 0001:000092bf   875 0001:000092d6
+   876 0001:000092e3   881 0001:00009397   883 0001:000093ae   885 0001:000093bd
+   889 0001:000093d4   890 0001:000093e2   893 0001:00009400   894 0001:00009409
+   900 0001:00009416   896 0001:00009419   898 0001:00009420   900 0001:0000945c
+   903 0001:0000950a   905 0001:00009554   909 0001:00009556   910 0001:00009572
+   911 0001:0000958a   912 0001:000095c1   915 0001:000095d0   916 0001:000095d3
+   919 0001:000095e9   921 0001:000095f6   922 0001:00009626   919 0001:00009666
+   935 0001:0000966e   924 0001:00009678   926 0001:00009683   929 0001:0000968f
+   930 0001:00009767   935 0001:0000977f   938 0001:00009790   939 0001:00009798
+   941 0001:000097ae   942 0001:000097de   944 0001:000097ff   946 0001:00009806
+   949 0001:00009812   950 0001:000098ea   951 0001:00009902   954 0001:00009921
+   957 0001:00009930   959 0001:00009943   962 0001:00009950   963 0001:0000996b
+   966 0001:00009994   967 0001:0000999a   968 0001:000099a8   970 0001:000099b4
+   971 0001:000099c2   973 0001:000099c9   974 0001:00009a06   977 0001:00009a0f
+   978 0001:00009a24   979 0001:00009a4c   980 0001:00009a7b   983 0001:00009a94
+   984 0001:00009b2a   983 0001:00009b83   986 0001:00009b87   987 0001:00009b90
+   989 0001:00009b9b   990 0001:00009ba0   991 0001:00009ba5   994 0001:00009bac
+   995 0001:00009bb2   996 0001:00009bba   997 0001:00009bc3   999 0001:00009bcf
+  1001 0001:00009bd9  1003 0001:00009bdf  1005 0001:00009be1  1007 0001:00009bf1
+  1015 0001:00009bf9  1016 0001:00009c3b  1018 0001:00009c3f   984 0001:00009c9f
+  1022 0001:00009ca3  1023 0001:00009cc7  1024 0001:00009cce  1025 0001:00009cd7
+  1026 0001:00009ce0  1027 0001:00009ce9  1028 0001:00009cf2  1029 0001:00009cfb
+  1030 0001:00009d04  1031 0001:00009d0d  1032 0001:00009d14  1033 0001:00009d1e
+  1034 0001:00009d2a  1035 0001:00009d36  1037 0001:00009d42  1038 0001:00009d4b
+  1040 0001:00009d5c  1042 0001:00009d6b  1043 0001:00009d72  1046 0001:00009d85
+  1047 0001:00009e33  1048 0001:00009e3d  1046 0001:00009e4e  1047 0001:00009e9b
+  1048 0001:00009ea5  1046 0001:00009eb6  1047 0001:00009f19  1048 0001:00009f23
+  1046 0001:00009f34  1047 0001:0000a073  1048 0001:0000a07d    25 0001:0000a0b0
+    26 0001:0000a0cf  1051 0001:0000a0d0  1052 0001:0000a0ea  1055 0001:0000a113
+  1056 0001:0000a11d  1057 0001:0000a123  1058 0001:0000a131  1060 0001:0000a13d
+  1061 0001:0000a14b  1063 0001:0000a153  1064 0001:0000a18f  1067 0001:0000a198
+  1068 0001:0000a1ad  1069 0001:0000a1d5  1070 0001:0000a204  1073 0001:0000a21d
+  1074 0001:0000a2b3  1073 0001:0000a30c  1076 0001:0000a310  1077 0001:0000a319
+  1079 0001:0000a324  1080 0001:0000a329  1081 0001:0000a32e  1084 0001:0000a335
+  1085 0001:0000a33b  1086 0001:0000a343  1087 0001:0000a34c  1089 0001:0000a358
+  1091 0001:0000a362  1093 0001:0000a368  1095 0001:0000a36a  1097 0001:0000a37a
+  1105 0001:0000a382  1106 0001:0000a3c4  1108 0001:0000a3c8  1112 0001:0000a428
+  1123 0001:0000a43a  1124 0001:0000a4a3  1125 0001:0000a4bb  1126 0001:0000a4c7
+  1127 0001:0000a4d3  1129 0001:0000a4d9  1130 0001:0000a4e6  1132 0001:0000a4ec
+  1134 0001:0000a507  1137 0001:0000a517  1138 0001:0000a5c1  1139 0001:0000a5cb
+  1137 0001:0000a5dc  1138 0001:0000a629  1139 0001:0000a632  1137 0001:0000a643
+  1138 0001:0000a6a7  1139 0001:0000a6b0  1137 0001:0000a6c1  1138 0001:0000a7fd
+  1139 0001:0000a806  1142 0001:0000a830  1143 0001:0000a84a  1145 0001:0000a873
+  1146 0001:0000a879  1147 0001:0000a883  1149 0001:0000a88f  1150 0001:0000a89d
+  1152 0001:0000a8a5  1153 0001:0000a8e1  1155 0001:0000a8ec  1156 0001:0000a8f2
+  1157 0001:0000a934  1159 0001:0000a973  1160 0001:0000a97c  1162 0001:0000a987
+  1170 0001:0000a98a  1171 0001:0000a9c0  1172 0001:0000a9c4  1174 0001:0000a9d0
+  1176 0001:0000a9da  1178 0001:0000a9e0  1180 0001:0000a9e2  1184 0001:0000aa1e
+  1199 0001:0000aa30  1200 0001:0000aaed  1201 0001:0000ab1f  1203 0001:0000ab57
+  1206 0001:0000ab5d  1207 0001:0000ac27  1208 0001:0000ac31  1206 0001:0000ac42
+  1207 0001:0000ac8f  1208 0001:0000ac98  1206 0001:0000aca9  1207 0001:0000ad1f
+  1208 0001:0000ad28  1206 0001:0000ad39  1207 0001:0000ae79  1208 0001:0000ae82
+  1211 0001:0000aeb0  1212 0001:0000aebd  1213 0001:0000aec7  1215 0001:0000aed0
+  1216 0001:0000af18  1218 0001:0000af29  1219 0001:0000af2d  1213 0001:0000af38
+  1222 0001:0000af46  1225 0001:0000af50  1226 0001:0000af5d  1227 0001:0000af67
+  1229 0001:0000af74  1230 0001:0000afbc  1232 0001:0000afcd  1234 0001:0000afde
+  1227 0001:0000aff0  1237 0001:0000affe  1240 0001:0000b010  1241 0001:0000b013
+  1243 0001:0000b024  1244 0001:0000b06c  1246 0001:0000b07d  1247 0001:0000b08a
+  1241 0001:0000b092  1250 0001:0000b0a0  1253 0001:0000b0b0  1254 0001:0000b0b3
+  1256 0001:0000b0c4  1257 0001:0000b10c  1259 0001:0000b11d  1260 0001:0000b126
+  1254 0001:0000b12e  1263 0001:0000b13c  1266 0001:0000b150  1267 0001:0000b153
+  1269 0001:0000b163  1270 0001:0000b1ac  1272 0001:0000b1b0  1274 0001:0000b1bd
+  1267 0001:0000b1c4  1278 0001:0000b1d2  1281 0001:0000b1e0  1283 0001:0000b1ed
+  1285 0001:0000b1f3  1287 0001:0000b200  1288 0001:0000b244  1285 0001:0000b27c
+  1292 0001:0000b284  1293 0001:0000b287  1289 0001:0000b290  1293 0001:0000b293
+  1296 0001:0000b2a0  1297 0001:0000b2a3  1299 0001:0000b2b3  1300 0001:0000b2fc
+  1302 0001:0000b300  1304 0001:0000b30d  1305 0001:0000b314  1306 0001:0000b31b
+  1310 0001:0000b330  1313 0001:0000b340  1314 0001:0000b345  1316 0001:0000b350
+  1317 0001:0000b394  1314 0001:0000b3a6  1325 0001:0000b3ae  1326 0001:0000b3b1
+  1319 0001:0000b3b7  1320 0001:0000b3c2  1321 0001:0000b3cc  1322 0001:0000b3d6
+  1326 0001:0000b3d8  1329 0001:0000b3e0  1330 0001:0000b3e4  1333 0001:0000b3f7
+  1335 0001:0000b404  1336 0001:0000b454  1338 0001:0000b458  1340 0001:0000b469
+  1342 0001:0000b472  1344 0001:0000b47b  1346 0001:0000b47d  1348 0001:0000b488
+  1333 0001:0000b499  1354 0001:0000b4ab  1357 0001:0000b4c0  1360 0001:0000b4d3
+  1362 0001:0000b4e4  1363 0001:0000b528  1360 0001:0000b560  1368 0001:0000b570
+  1369 0001:0000b574  1365 0001:0000b57a  1369 0001:0000b584  1372 0001:0000b590
+  1373 0001:0000b593  1375 0001:0000b5a8  1376 0001:0000b5f0  1378 0001:0000b601
+  1379 0001:0000b60a  1373 0001:0000b61f  1382 0001:0000b62d  1385 0001:0000b640
+  1386 0001:0000b643  1388 0001:0000b658  1389 0001:0000b6a0  1391 0001:0000b6b1
+  1392 0001:0000b6ba  1386 0001:0000b6cf  1395 0001:0000b6dd  1398 0001:0000b6f0
+  1399 0001:0000b711  1400 0001:0000b71b  1402 0001:0000b72f  1403 0001:0000b75d
+  1405 0001:0000b765  1406 0001:0000b774  1408 0001:0000b780  1409 0001:0000b7a5
+  1410 0001:0000b7ab  1412 0001:0000b7ec  1410 0001:0000b816  1414 0001:0000b81a
+  1415 0001:0000b822  1417 0001:0000b82d  1425 0001:0000b830  1426 0001:0000b861
+  1429 0001:0000b865  1430 0001:0000b86c  1432 0001:0000b876  1434 0001:0000b87d
+  1436 0001:0000b887  1439 0001:0000b892  1440 0001:0000b89c  1442 0001:0000b8a4
+  1443 0001:0000b8ae  1446 0001:0000b8e9  1459 0001:0000b8ef  1460 0001:0000b93c
+  1461 0001:0000b96e  1463 0001:0000b9b0  1400 0001:0000b9c1  1466 0001:0000b9d4
+  1467 0001:0000b9d7  1470 0001:0000ba00  1471 0001:0000ba03  1473 0001:0000ba18
+  1474 0001:0000ba60  1477 0001:0000ba75  1476 0001:0000ba81  1479 0001:0000ba87
+  1481 0001:0000ba92  1471 0001:0000ba97  1484 0001:0000baa9  1499 0001:0000bab0
+  1500 0001:0000bab5  1502 0001:0000bac0  1503 0001:0000bb04  1500 0001:0000bb16
+  1508 0001:0000bb1e  1509 0001:0000bb21  1505 0001:0000bb27  1509 0001:0000bb33
+  1512 0001:0000bb40  1513 0001:0000bb43  1515 0001:0000bb58  1516 0001:0000bba0
+  1518 0001:0000bbb1  1519 0001:0000bbc4  1520 0001:0000bbd1  1513 0001:0000bbd9
+  1523 0001:0000bbeb  1526 0001:0000bc00  1527 0001:0000bc0b  1528 0001:0000bc11
+  1530 0001:0000bc1b  1531 0001:0000bc64  1533 0001:0000bc68  1535 0001:0000bc73
+  1528 0001:0000bc84  1539 0001:0000bc92  1542 0001:0000bca0  1543 0001:0000bca3
+  1545 0001:0000bcb4  1546 0001:0000bcfc  1548 0001:0000bd0d  1549 0001:0000bd11
+  1543 0001:0000bd19  1552 0001:0000bd27  1555 0001:0000bd30  1557 0001:0000bd37
+  1560 0001:0000bd40  1562 0001:0000bd6b  1574 0001:0000bd6e  1565 0001:0000bd74
+  1567 0001:0000bd8a  1568 0001:0000bdce  1570 0001:0000be06  1573 0001:0000be1a
+  1574 0001:0000be1f  1577 0001:0000be30  1579 0001:0000be5c  1594 0001:0000be62
+  1582 0001:0000be68  1584 0001:0000be81  1585 0001:0000bec5  1587 0001:0000befd
+  1582 0001:0000bf0e  1593 0001:0000bf1e  1594 0001:0000bf22  1589 0001:0000bf28
+  1594 0001:0000bf32  1597 0001:0000bf40  1600 0001:0000bf53  1602 0001:0000bf64
+  1603 0001:0000bfa8  1600 0001:0000bfe0  1615 0001:0000bff0  1616 0001:0000bff3
+  1605 0001:0000bff9  1606 0001:0000c005  1609 0001:0000c00d  1610 0001:0000c021
+  1612 0001:0000c025  1616 0001:0000c038  1619 0001:0000c040  1621 0001:0000c043
+  1624 0001:0000c050  1625 0001:0000c05c  1628 0001:0000c062  1630 0001:0000c088
+  1631 0001:0000c08e  1633 0001:0000c0a0  1634 0001:0000c0d6  1636 0001:0000c0fe
+  1638 0001:0000c116  1641 0001:0000c120  1643 0001:0000c143  1644 0001:0000c14b
+  1647 0001:0000c156  1648 0001:0000c167  1652 0001:0000c16f  1654 0001:0000c195
+  1656 0001:0000c19d  1662 0001:0000c1a5  1663 0001:0000c1b3  1665 0001:0000c1d2
+  1667 0001:0000c1d8  1669 0001:0000c1e6  1676 0001:0000c1ed  1679 0001:0000c1f1
+  1681 0001:0000c255  1683 0001:0000c264  1641 0001:0000c280  1689 0001:0000c2c5
+  1690 0001:0000c2c8  1684 0001:0000c2d4  1690 0001:0000c2d7  1693 0001:0000c2e0
+  1695 0001:0000c2e9
+
+Line numbers for .\Release\3DSimpleObj.obj(F:\cygwin\home\Administrator\Projects\C3Engine_Windows_GL2\Role3D\3DSimpleObjX.h) segment .text
+
+    29 0001:00007350    30 0001:00007360    33 0001:00007370    34 0001:00007380
+
+Line numbers for .\Release\3DSimpleObj.obj(F:\cygwin\home\Administrator\Projects\C3Engine_Windows_GL2\Role3D\3DSimpleObj.cpp) segment .text
+
+     8 0001:00005ee0     9 0001:00005ee7    10 0001:00005ef2    11 0001:00005ef5
+    15 0001:00005f00    17 0001:00005f02    20 0001:00005f0b    21 0001:00005f34
+    22 0001:00005f63    23 0001:00005f92    24 0001:00005fc1    26 0001:00005fcb
+    28 0001:00005fd2    29 0001:00005fd5    30 0001:00005fdc    31 0001:00005fdf
+    32 0001:00005fe2    33 0001:00005fe5    36 0001:00006010    37 0001:00006014
+    38 0001:0000603a    41 0001:00006040    43 0001:0000604e    44 0001:00006050
+    47 0001:00006060    48 0001:00006063    49 0001:00006092    52 0001:000060a0
+    53 0001:000060a3    54 0001:000060d2    57 0001:000060e0    60 0001:000060e3
+    61 0001:000060e7    62 0001:00006115    63 0001:0000611f    66 0001:00006130
+    67 0001:00006133    68 0001:00006162    71 0001:00006170    72 0001:00006179
+   113 0001:0000619d    74 0001:000061a6   113 0001:000061b0    77 0001:000061b9
+    84 0001:000061bf    85 0001:0000625e    86 0001:00006277    87 0001:00006290
+    88 0001:00006293    93 0001:000062bb    95 0001:00006345    99 0001:00006360
+   102 0001:00006367   105 0001:00006393   108 0001:0000639f   111 0001:000063cd
+   112 0001:000063d6   113 0001:000063d9   116 0001:000063f0   117 0001:000063f3
+   137 0001:00006417   119 0001:0000641a   137 0001:00006424   122 0001:00006427
+   125 0001:0000642d   128 0001:0000643f   131 0001:0000644b   134 0001:00006476
+   136 0001:0000647e   137 0001:00006481   140 0001:00006490   141 0001:00006496
+   149 0001:000064bd   143 0001:000064c3   149 0001:000064cd   147 0001:000064d3
+   148 0001:000064f0   149 0001:00006503   152 0001:00006510   153 0001:00006516
+   166 0001:0000653d   154 0001:00006543   166 0001:0000654d   158 0001:00006553
+   161 0001:0000656e   163 0001:00006583   164 0001:00006595   165 0001:0000659f
+   166 0001:000065a3   169 0001:000065b0   172 0001:000065b3   174 0001:000065e9
+   175 0001:000065f0   179 0001:00006600   180 0001:00006603   181 0001:00006607
+   182 0001:0000663a   183 0001:00006641   186 0001:00006650   187 0001:00006656
+   195 0001:0000667d   189 0001:00006683   195 0001:0000668d   193 0001:00006693
+   194 0001:000066ad   195 0001:000066cc   198 0001:000066e0   199 0001:000066e6
+   212 0001:0000670d   201 0001:00006713   212 0001:0000671d   206 0001:00006723
+   207 0001:0000673d   212 0001:00006767   215 0001:00006770   216 0001:0000678e
+   219 0001:000067ae   220 0001:000067c4   222 0001:000067cc   223 0001:000067f4
+   225 0001:0000680d   226 0001:00006816   228 0001:00006821   229 0001:00006826
+   231 0001:00006835   232 0001:0000683c   233 0001:00006840   234 0001:00006846
+   235 0001:0000684c   236 0001:00006852   237 0001:00006858   240 0001:0000686b
+   241 0001:00006876   245 0001:0000687a   246 0001:00006886   248 0001:0000688f
+   249 0001:000068bb   246 0001:000068e7   265 0001:000068e9   251 0001:000068fe
+   252 0001:00006907   254 0001:00006912   255 0001:00006917   257 0001:00006930
+   258 0001:00006937   259 0001:0000693b   260 0001:0000693e   263 0001:0000694e
+   264 0001:00006959   268 0001:00006960   269 0001:0000697a   271 0001:00006998
+   272 0001:000069c0   287 0001:000069f0   274 0001:00006a01   275 0001:00006a0a
+   279 0001:00006a15   281 0001:00006a20   283 0001:00006a2e   287 0001:00006a3c
+   290 0001:00006a70   291 0001:00006a8b   293 0001:00006aa7   294 0001:00006acb
+   313 0001:00006afc   296 0001:00006b0d   297 0001:00006b16   301 0001:00006b21
+   302 0001:00006b27   303 0001:00006b2e   305 0001:00006b34   306 0001:00006b38
+   308 0001:00006b46   313 0001:00006b54   316 0001:00006b80   329 0001:00006bb0
+   330 0001:00006bb3   321 0001:00006bb6   323 0001:00006bbd   324 0001:00006bc5
+   325 0001:00006bc8   327 0001:00006bcc   330 0001:00006be2   333 0001:00006bf0
+   347 0001:00006c20   348 0001:00006c23   338 0001:00006c26   339 0001:00006c2b
+   341 0001:00006c2d   342 0001:00006c35   343 0001:00006c38   345 0001:00006c3c
+   348 0001:00006c66   351 0001:00006c70   361 0001:00006c96   354 0001:00006c97
+   355 0001:00006c9e   357 0001:00006cab   358 0001:00006cb6   361 0001:00006cc0
+   364 0001:00006cd0   365 0001:00006cd3   371 0001:00006cf8   368 0001:00006cfb
+   369 0001:00006d24   371 0001:00006d31   374 0001:00006d40   379 0001:00006d64
+   377 0001:00006d67   379 0001:00006d80   382 0001:00006d90   383 0001:00006d93
+   387 0001:00006db8   384 0001:00006dbb   385 0001:00006dc3   386 0001:00006dce
+   387 0001:00006dde   390 0001:00006df0   393 0001:00006e14   392 0001:00006e17
+   393 0001:00006e23   396 0001:00006e30   399 0001:00006e54   398 0001:00006e57
+   399 0001:00006e66   402 0001:00006e70   403 0001:00006e73   408 0001:00006e98
+   405 0001:00006e9b   406 0001:00006eaa   408 0001:00006ebd   411 0001:00006ec0
+   416 0001:00006ee4   414 0001:00006ee7   416 0001:00006ef1   419 0001:00006f00
+   420 0001:00006f03   425 0001:00006f28   422 0001:00006f2b   423 0001:00006f35
+   425 0001:00006f42   428 0001:00006f50   433 0001:00006f74   431 0001:00006f77
+   433 0001:00006f87   436 0001:00006f90   442 0001:00006fb4   443 0001:00006fb6
+   439 0001:00006fb7   446 0001:00006fc0   448 0001:00006fc7   451 0001:00006fd0
+   453 0001:00006fd7   456 0001:00006fe0   457 0001:00006fe3   461 0001:00007008
+   459 0001:0000700b   460 0001:0000701a   461 0001:00007028   464 0001:00007030
+   469 0001:00007054   466 0001:00007057   468 0001:0000705f   469 0001:0000706e
+   472 0001:00007080   473 0001:00007085   517 0001:000070ae   475 0001:000070af
+   478 0001:000070ba   479 0001:000070cf   481 0001:000070d3   482 0001:000070dd
+   484 0001:000070e8   485 0001:000070ed   487 0001:00007100   488 0001:00007107
+   489 0001:0000710b   490 0001:00007111   491 0001:00007117   492 0001:0000711d
+   493 0001:00007123   516 0001:00007138   517 0001:0000713b   498 0001:0000713c
+   499 0001:0000714b   502 0001:0000715e   503 0001:00007168   505 0001:00007173
+   506 0001:00007178   508 0001:00007192   509 0001:00007199   510 0001:0000719d
+   511 0001:000071a0   516 0001:000071b3   517 0001:000071b6   520 0001:000071c0
+   523 0001:000071e6   522 0001:000071e9   523 0001:000071fd   526 0001:00007200
+   529 0001:00007226   528 0001:00007229   529 0001:00007238   533 0001:00007240
+   535 0001:00007258   550 0001:0000725f   538 0001:00007260   540 0001:00007266
+   543 0001:00007268   545 0001:00007274   546 0001:00007280   550 0001:00007283
+   549 0001:00007284   550 0001:00007287   553 0001:00007290   555 0001:000072a8
+   564 0001:000072af   557 0001:000072b0   559 0001:000072d9   560 0001:000072e5
+   564 0001:000072e8   563 0001:000072e9   564 0001:000072ec   567 0001:000072f0
+   569 0001:00007308   578 0001:0000730f   571 0001:00007310   573 0001:00007334
+   574 0001:00007340   578 0001:00007343   577 0001:00007344   578 0001:00007347
+
+Line numbers for .\Release\3DRolePart.obj(../C3_CORE\D3DXMathe_internal.h) segment .text
+
+   283 0001:00005d70   287 0001:00005d71   288 0001:00005d8b   290 0001:00005d9a
+   291 0001:00005da2   293 0001:00005db0   295 0001:00005db2   296 0001:00005dba
+   300 0001:00005dd2   301 0001:00005ddb   303 0001:00005deb   304 0001:00005df7
+   306 0001:00005dfa   308 0001:00005dfc   309 0001:00005e08   312 0001:00005e16
+   314 0001:00005e30   316 0001:00005e38   317 0001:00005e4b   320 0001:00005e62
+   321 0001:00005e6b   323 0001:00005e7b   324 0001:00005e87   326 0001:00005e8a
+   328 0001:00005e8c   329 0001:00005e98   332 0001:00005ea2   339 0001:00005ebc
+   340 0001:00005ed4   339 0001:00005ed6   340 0001:00005ed8
+
+Line numbers for .\Release\3DRolePart.obj(../include\DXPrimitive.h) segment .text
+
+   612 0001:00005b30   614 0001:00005b33   615 0001:00005b59   616 0001:00005b7a
+   617 0001:00005b9b   619 0001:00005bbc   620 0001:00005bdd   621 0001:00005bff
+   622 0001:00005c21   624 0001:00005c43   625 0001:00005c64   626 0001:00005c86
+   627 0001:00005ca8   629 0001:00005cca   630 0001:00005ceb   633 0001:00005cf7
+   634 0001:00005d64
+
+Line numbers for .\Release\3DRolePart.obj(F:\cygwin\home\Administrator\Projects\C3Engine_Windows_GL2\Role3D\3DRolePart.cpp) segment .text
+
+     9 0001:000045d0    12 0001:000045e3    13 0001:000045f4    14 0001:000045fa
+    16 0001:00004603    17 0001:0000463a    18 0001:0000466d    21 0001:00004680
+    22 0001:000046a5    23 0001:000046aa    26 0001:000046d0    27 0001:000046d5
+    28 0001:000046ec    30 0001:000046f0    32 0001:000046f4    34 0001:00004706
+    46 0001:00004709    37 0001:0000470d    40 0001:0000471c    42 0001:00004726
+    45 0001:00004733    46 0001:00004736    49 0001:00004740    50 0001:00004743
+    51 0001:00004758    53 0001:0000475c    55 0001:00004761    62 0001:00004771
+    57 0001:00004774    62 0001:00004777    60 0001:0000477c    61 0001:00004789
+    62 0001:0000479d    65 0001:000047a0    68 0001:000047ac    74 0001:000047b8
+    72 0001:000047bb    74 0001:000047f4    77 0001:00004800    78 0001:00004804
+    79 0001:0000481b    80 0001:00004820    99 0001:00004823    82 0001:00004826
+    83 0001:00004837    99 0001:0000483a    86 0001:0000483d    88 0001:0000484e
+    89 0001:00004855    90 0001:00004859    91 0001:0000485f    92 0001:00004865
+    93 0001:0000486b    94 0001:00004871    97 0001:00004884    98 0001:00004895
+    99 0001:00004898   102 0001:000048a0   103 0001:000048ad   104 0001:000048ca
+   139 0001:000048d1   106 0001:000048da   108 0001:000048ff   110 0001:00004907
+   108 0001:00004918   110 0001:00004920   112 0001:00004922   113 0001:00004929
+   106 0001:00004946   120 0001:0000494a   122 0001:00004957   124 0001:0000496d
+   126 0001:00004973   127 0001:00004976   128 0001:0000497b   129 0001:00004981
+   130 0001:00004987   131 0001:0000498d   132 0001:00004993   133 0001:00004999
+   137 0001:000049a3   138 0001:000049a9   139 0001:000049ac   142 0001:000049c0
+   144 0001:000049c4   146 0001:000049d7   148 0001:000049e3   152 0001:000049fc
+   153 0001:00004a0d   156 0001:00004a10   157 0001:00004a15   158 0001:00004a1d
+   160 0001:00004a30   161 0001:00004a33   163 0001:00004a37   166 0001:00004a45
+   168 0001:00004a49   171 0001:00004a76   174 0001:00004a80   175 0001:00004a8d
+   176 0001:00004a93   177 0001:00004aaa   179 0001:00004ab4   181 0001:00004ace
+   182 0001:00004ad1   184 0001:00004ad5   187 0001:00004ae5   189 0001:00004ae9
+   217 0001:00004b0f   218 0001:00004b12   195 0001:00004b18   197 0001:00004b32
+   199 0001:00004b3a   197 0001:00004b4b   199 0001:00004b53   201 0001:00004b55
+   202 0001:00004b58   204 0001:00004b5c   207 0001:00004b68   209 0001:00004b6c
+   217 0001:00004ba4   218 0001:00004ba7   221 0001:00004bb0   222 0001:00004bb5
+   223 0001:00004bbd   225 0001:00004bd0   226 0001:00004bd3   228 0001:00004bd7
+   231 0001:00004be5   233 0001:00004be9   236 0001:00004c07   239 0001:00004c10
+   240 0001:00004c15   241 0001:00004c1d   243 0001:00004c30   244 0001:00004c33
+   246 0001:00004c37   249 0001:00004c45   251 0001:00004c49   254 0001:00004c67
+   257 0001:00004c70   258 0001:00004c74   259 0001:00004c7d   260 0001:00004c85
+   258 0001:00004c91   262 0001:00004c97   263 0001:00004c9a   265 0001:00004c9e
+   268 0001:00004cad   270 0001:00004cb1   271 0001:00004cb8   273 0001:00004cbe
+   260 0001:00004cc2   278 0001:00004cd0   279 0001:00004cd8   278 0001:00004cda
+   279 0001:00004ce0   282 0001:00004cf0   283 0001:00004cf6   284 0001:00004cfe
+   283 0001:00004d0a   286 0001:00004d10   287 0001:00004d1f   289 0001:00004d23
+   291 0001:00004d28   293 0001:00004d37   284 0001:00004d3b   295 0001:00004d4c
+   296 0001:00004d4f   293 0001:00004d53   296 0001:00004d56   299 0001:00004d60
+   300 0001:00004d66   301 0001:00004d6e   300 0001:00004d7a   304 0001:00004d80
+   306 0001:00004d87   308 0001:00004d95   301 0001:00004d99   310 0001:00004daa
+   311 0001:00004dad   308 0001:00004db1   311 0001:00004db4   314 0001:00004dc0
+   315 0001:00004dcd   316 0001:00004dd5   315 0001:00004def   318 0001:00004df5
+   319 0001:00004e04   321 0001:00004e0c   322 0001:00004e0f   324 0001:00004e13
+   327 0001:00004e22   329 0001:00004e26   331 0001:00004e35   334 0001:00004e42
+   335 0001:00004e4e   336 0001:00004e5a   338 0001:00004e62   340 0001:00004e6a
+   343 0001:00004e94   344 0001:00004ea3   348 0001:00004ebe   349 0001:00004ecf
+   350 0001:00004edb   358 0001:00004ef0   360 0001:00004ef6   363 0001:00004f00
+   366 0001:00004f08   372 0001:00004f17   370 0001:00004f1a   372 0001:00004f2a
+   375 0001:00004f30   378 0001:00004f3c   380 0001:00004f4f   388 0001:00004f60
+   384 0001:00004f63   386 0001:00004f7f   388 0001:00004f99   391 0001:00004fa0
+   394 0001:00004fad   412 0001:00004fb5   398 0001:00004fb8   399 0001:00004fc0
+   401 0001:00004fd3   402 0001:00004fd6   404 0001:00004fda   407 0001:00004fe8
+   409 0001:00004fec   412 0001:0000500a   415 0001:00005010   416 0001:00005015
+   417 0001:0000501d   419 0001:00005030   420 0001:00005033   422 0001:00005037
+   425 0001:00005045   427 0001:00005049   430 0001:0000506c   433 0001:00005070
+   436 0001:00005079   439 0001:0000508a   442 0001:000050a2   444 0001:000050bd
+   445 0001:000050c5   436 0001:000050df   447 0001:000050e5   448 0001:000050e8
+   450 0001:000050ec   453 0001:000050fa   455 0001:000050fe   458 0001:0000510b
+   465 0001:00005117   468 0001:00005129   455 0001:00005149   445 0001:00005159
+   474 0001:00005176   475 0001:00005179   469 0001:00005182   475 0001:00005185
+   479 0001:00005190   485 0001:0000519c   486 0001:000051a4   488 0001:000051c8
+   489 0001:000051cb   491 0001:000051cf   494 0001:000051dd   496 0001:000051e5
+   497 0001:000051f1   500 0001:000051f9   503 0001:0000520a   506 0001:0000521a
+   509 0001:00005233   510 0001:0000524a   511 0001:0000525c   512 0001:00005274
+   516 0001:0000528c   519 0001:000052a1   500 0001:000052c1   486 0001:000052f3
+   497 0001:000052f8   525 0001:00005318   526 0001:0000531b   520 0001:00005327
+   526 0001:0000532a   557 0001:00005340   614 0001:00005367   567 0001:0000536d
+   568 0001:00005375   567 0001:0000538b   570 0001:00005391   571 0001:00005394
+   573 0001:00005398   576 0001:000053a6   578 0001:000053aa   581 0001:000053b8
+   568 0001:000053c1   613 0001:000053d7   614 0001:000053eb   583 0001:000053f1
+   584 0001:000053fb   608 0001:00005403   614 0001:0000541a   669 0001:00005420
+   670 0001:0000542a   671 0001:00005434   694 0001:00005449   676 0001:00005452
+   678 0001:000054df   679 0001:000054e6   681 0001:000054ea   684 0001:00005503
+   686 0001:00005507   688 0001:00005512   689 0001:00005526   693 0001:00005549
+   694 0001:00005560   697 0001:00005570   699 0001:00005573   700 0001:0000558f
+   702 0001:000055a2   703 0001:000055aa   699 0001:000055b6   705 0001:000055bc
+   706 0001:000055bf   708 0001:000055c3   711 0001:000055d2   713 0001:000055d6
+   716 0001:000055fd   719 0001:00005610   720 0001:00005615   721 0001:0000561d
+   723 0001:00005630   724 0001:00005633   726 0001:00005637   729 0001:00005645
+   731 0001:00005649   734 0001:00005662   738 0001:00005670   739 0001:0000567a
+   740 0001:00005682   742 0001:00005699   743 0001:0000569c   745 0001:000056a0
+   748 0001:000056af   750 0001:000056b3   754 0001:000056c3   756 0001:000056d2
+   752 0001:000056d4   759 0001:000056d8   760 0001:000056f4   762 0001:000056fe
+   763 0001:00005716   766 0001:00005720   769 0001:00005727   772 0001:00005747
+   775 0001:00005750   776 0001:00005755   777 0001:0000575d   779 0001:00005770
+   780 0001:00005773   782 0001:00005777   785 0001:00005786   787 0001:0000578a
+   788 0001:0000579b   791 0001:000057b5   794 0001:000057c0   795 0001:000057cb
+   796 0001:000057d3   798 0001:000057f7   799 0001:000057fa   801 0001:000057fe
+   804 0001:0000580c   806 0001:00005810   807 0001:0000581a   809 0001:00005839
+   811 0001:00005840   813 0001:00005848   817 0001:0000584a   822 0001:00005875
+   825 0001:00005880   827 0001:00005888   830 0001:0000588a   829 0001:0000588d
+   830 0001:000058a4   849 0001:000058b0   853 0001:000058b8   856 0001:000058ca
+   857 0001:000058df   858 0001:000058f7   882 0001:0000590a   853 0001:00005954
+   863 0001:00005960   864 0001:00005963   866 0001:00005967   869 0001:00005975
+   871 0001:00005978   861 0001:000059b0   882 0001:000059c1   883 0001:000059c4
+   873 0001:000059ca   876 0001:000059d5   878 0001:000059ee   883 0001:000059f1
+   886 0001:00005a00   888 0001:00005a06   891 0001:00005a10   894 0001:00005a2d
+   895 0001:00005a30   897 0001:00005a43   900 0001:00005a50   903 0001:00005a68
+   905 0001:00005a7a   908 0001:00005a80   910 0001:00005a83   911 0001:00005a89
+   913 0001:00005a97   914 0001:00005a9e   916 0001:00005aa2   918 0001:00005ab3
+   921 0001:00005ac8   920 0001:00005acb   921 0001:00005ace   924 0001:00005ae0
+   926 0001:00005ae3   927 0001:00005ae9   929 0001:00005af7   930 0001:00005afe
+   932 0001:00005b02   934 0001:00005b13   937 0001:00005b23   936 0001:00005b26
+   937 0001:00005b29
+
+Line numbers for .\Release\3DRoleEx.obj(D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\new) segment .text
+
+    45 0001:000045a0
+
+Line numbers for .\Release\3DRoleEx.obj(D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xmemory) segment .text
+
+    34 0001:00004440
+
+Line numbers for .\Release\3DRoleEx.obj(D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xutility) segment .text
+
+    18 0001:00004410    19 0001:00004421    20 0001:00004430
+
+Line numbers for .\Release\3DRoleEx.obj(F:\cygwin\home\Administrator\Projects\C3Engine_Windows_GL2\Role3D\3DRoleEx.h) segment .text
+
+    19 0001:00003d80    20 0001:00003d9f    21 0001:00003dc1    31 0001:00003e90
+    33 0001:00003e9e    34 0001:00003ea0    76 0001:00003f00    78 0001:00003f10
+    79 0001:00003f43    80 0001:00003f4a    84 0001:00003f50    86 0001:00003f54
+    87 0001:00003f5e
+
+Line numbers for .\Release\3DRoleEx.obj(D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xtree) segment .text
+
+   191 0001:00003780   261 0001:00003790   262 0001:0000379b   264 0001:000037a8
+   265 0001:000037b0   266 0001:000037bf   268 0001:000037c5   269 0001:000037c7
+   270 0001:000037df   271 0001:000037e9   272 0001:000037f1   273 0001:000037f6
+   274 0001:000037fa   275 0001:00003800   276 0001:00003803   277 0001:00003805
+   278 0001:0000380b   279 0001:00003810   280 0001:00003815   281 0001:0000381a
+   282 0001:00003826   283 0001:00003829   284 0001:00003832   285 0001:00003834
+   286 0001:00003836   287 0001:00003839   289 0001:0000383c   290 0001:0000384f
+   291 0001:00003856   292 0001:00003859   293 0001:00003868   294 0001:0000386b
+   295 0001:00003874   296 0001:00003876   297 0001:00003878   298 0001:0000387b
+   300 0001:00003886   301 0001:00003890   302 0001:00003895   303 0001:00003897
+   304 0001:000038b3   306 0001:000038bb   307 0001:000038c7   308 0001:000038ca
+   309 0001:000038cc   290 0001:000038e1   310 0001:000038e5   311 0001:000038f7
+   312 0001:0000390c   313 0001:00003915   314 0001:00003918   315 0001:0000391d
+   316 0001:00003920   317 0001:00003926   318 0001:00003964   320 0001:0000396a
+   334 0001:00003981   336 0001:00003983   337 0001:00003988   338 0001:0000398b
+   339 0001:00003991   340 0001:000039d1   342 0001:000039d6   343 0001:000039ed
+   344 0001:000039f3   358 0001:000039ff   324 0001:00003a04   325 0001:00003a0c
+   327 0001:00003a11   328 0001:00003a51   329 0001:00003a57   330 0001:00003a60
+   331 0001:00003a66   332 0001:00003a6c   333 0001:00003a97   332 0001:00003a9c
+   333 0001:00003aa7   332 0001:00003aac   333 0001:00003ab1   346 0001:00003ab6
+   347 0001:00003abd   349 0001:00003ac3   350 0001:00003b01   351 0001:00003b06
+   352 0001:00003b0f   353 0001:00003b15   354 0001:00003b1a   356 0001:00003b5a
+   357 0001:00003b5d   358 0001:00003b67   359 0001:00003b8f   360 0001:00003b9e
+   361 0001:00003ba1   363 0001:00003bc0   368 0001:00003be0   369 0001:00003c17
+   370 0001:00003c1d   371 0001:00003c2f   364 0001:00003c41   365 0001:00003c45
+   366 0001:00003c89   371 0001:00003c93   384 0001:00003ca0   387 0001:00003cdf
+   103 0001:00003d30   104 0001:00003d40   110 0001:00003d51   107 0001:00003d52
+   108 0001:00003d5c   109 0001:00003d68   110 0001:00003d6f   399 0001:00003e30
+   444 0001:00003eb0   445 0001:00003ec4   446 0001:00003ecf   447 0001:00003ed1
+   448 0001:00003ed9   542 0001:00003f70   543 0001:00003f80   544 0001:00003f88
+   132 0001:00003f90   134 0001:00003faf   133 0001:00003fbc   134 0001:00003fdb
+   462 0001:00003ff0   464 0001:00004001   465 0001:0000402c   467 0001:0000402f
+   475 0001:0000405d   476 0001:00004060   477 0001:00004068   468 0001:0000406d
+   469 0001:0000406f   470 0001:00004076   471 0001:00004079   472 0001:0000407f
+   473 0001:00004085   479 0001:00004087   480 0001:000040a3   481 0001:000040b0
+   482 0001:000040b3   483 0001:000040b8   484 0001:000040c0   485 0001:000040c3
+   486 0001:000040cc   487 0001:000040d2   488 0001:000040d7   489 0001:000040dc
+   490 0001:000040de   491 0001:00004119   492 0001:00004123   493 0001:0000412c
+   494 0001:0000415b   493 0001:00004160   494 0001:0000416e   493 0001:00004173
+   494 0001:00004178   496 0001:0000417d   497 0001:00004182   498 0001:0000418a
+   499 0001:0000418d   500 0001:00004196   501 0001:0000419c   502 0001:000041a1
+   503 0001:000041a5   504 0001:000041a7   505 0001:000041e4   506 0001:000041ee
+   507 0001:000041f7   508 0001:00004244   509 0001:00004253   511 0001:00004260
+   512 0001:00004265   513 0001:0000426a   514 0001:0000427f   515 0001:0000428d
+   516 0001:00004290   517 0001:00004292   518 0001:0000429f   577 0001:000042b0
+   579 0001:000042b7   580 0001:000042bb   581 0001:000042c8    92 0001:000043b0
+    94 0001:000043c2   101 0001:000043c6    95 0001:000043c9    96 0001:000043d5
+   101 0001:000043e8    99 0001:000043e9   100 0001:000043f2   101 0001:000043fd
+
+Line numbers for .\Release\3DRoleEx.obj(D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\map) segment .text
+
+    96 0001:00003680    97 0001:000036d8    96 0001:000036eb    97 0001:0000370b
+    96 0001:0000371e    97 0001:0000374e
+
+Line numbers for .\Release\3DRoleEx.obj(D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\deque) segment .text
+
+   207 0001:00003590   208 0001:000035a0    43 0001:000042d0   104 0001:00004300
+   107 0001:00004328   108 0001:00004359   109 0001:0000435e   114 0001:00004363
+   111 0001:00004366   112 0001:00004377   113 0001:0000437b   114 0001:00004384
+
+Line numbers for .\Release\3DRoleEx.obj(F:\cygwin\home\Administrator\Projects\C3Engine_Windows_GL2\Role3D\3DRoleEx.cpp) segment .text
+
+     6 0001:00000010     7 0001:00000030     8 0001:00000050    12 0001:00000060
+    13 0001:00000107    17 0001:0000013c    18 0001:00000142    19 0001:00000153
+    20 0001:00000156    21 0001:00000159    22 0001:0000015c    25 0001:00000190
+    26 0001:000001b9    28 0001:000001cc    29 0001:000001cf    26 0001:00000238
+    31 0001:0000025a    32 0001:000002ec    33 0001:000002ff    36 0001:00000480
+    37 0001:00000484    39 0001:00000498    40 0001:0000049b    42 0001:000004a5
+    37 0001:000004c0    45 0001:000004eb    48 0001:000004f0    49 0001:000004f4
+    51 0001:00000508    52 0001:0000050b    54 0001:00000515    49 0001:00000530
+    57 0001:0000055b    60 0001:00000560    61 0001:00000578    62 0001:00000629
+    64 0001:00000640    65 0001:00000643    67 0001:00000669    69 0001:00000675
+    70 0001:00000677    73 0001:00000690    74 0001:000006a8    75 0001:00000759
+    77 0001:00000770    78 0001:00000773    80 0001:00000799    82 0001:000007a5
+    83 0001:000007a7    86 0001:000007c0    87 0001:000007c1    89 0001:000007e4
+    90 0001:000007e7    92 0001:000007f1    87 0001:00000813    95 0001:00000843
+    98 0001:00000850    99 0001:0000085d   111 0001:00000893   112 0001:00000896
+   101 0001:000008a7   102 0001:0000094e   104 0001:00000965   105 0001:00000968
+   107 0001:0000097a   112 0001:0000099f   115 0001:000009c0   116 0001:000009da
+   118 0001:000009e5   119 0001:000009ea   121 0001:000009fe   122 0001:00000a01
+   124 0001:00000a0b   140 0001:00000a29   130 0001:00000a3a   131 0001:00000b0a
+   133 0001:00000b1d   134 0001:00000b20   136 0001:00000b2a   140 0001:00000b3b
+   143 0001:00000b50   144 0001:00000b6a   146 0001:00000b7b   148 0001:00000b90
+   149 0001:00000b93   151 0001:00000b9d   167 0001:00000bbb   157 0001:00000bcc
+   158 0001:00000c9c   160 0001:00000caf   161 0001:00000cb2   163 0001:00000cbc
+   167 0001:00000cc9   170 0001:00000ce0   171 0001:00000cfa   173 0001:00000d05
+   175 0001:00000d1e   176 0001:00000d21   178 0001:00000d2b   194 0001:00000d49
+   184 0001:00000d5a   185 0001:00000e2a   187 0001:00000e3d   188 0001:00000e40
+   190 0001:00000e4a   194 0001:00000e5b   197 0001:00000e70   198 0001:00000e8c
+   200 0001:00000ea0   202 0001:00000ea8   203 0001:00000ead   205 0001:00000ebd
+   206 0001:00000ec0   208 0001:00000eca   212 0001:00000ee7   214 0001:00000eec
+   215 0001:00000fba   217 0001:00000fcd   218 0001:00000fd0   220 0001:00000fda
+   224 0001:00000feb   227 0001:00001000   228 0001:0000101a   230 0001:00001025
+   231 0001:0000102a   233 0001:0000103a   234 0001:0000103d   236 0001:00001047
+   252 0001:00001066   242 0001:00001077   243 0001:00001147   245 0001:0000115a
+   246 0001:0000115d   248 0001:00001167   252 0001:00001173   255 0001:00001190
+   256 0001:0000119d   259 0001:000011ce   260 0001:0000126b   261 0001:0000127c
+   263 0001:0000127e   257 0001:00001283   264 0001:00001285   268 0001:000012a0
+   270 0001:000012b0   276 0001:000012bc   283 0001:00001300   284 0001:0000139a
+   286 0001:000013e9   284 0001:000013ec   286 0001:000013fe   284 0001:00001401
+   286 0001:00001440   278 0001:00001443   279 0001:0000148c   286 0001:000014d5
+   289 0001:000014e0   302 0001:0000151d   293 0001:00001520   294 0001:00001528
+   300 0001:00001534   301 0001:000015c8   302 0001:00001610   301 0001:00001613
+   302 0001:00001625   301 0001:00001628   302 0001:00001668   306 0001:00001670
+   308 0001:00001680   311 0001:0000168a   314 0001:00001692   317 0001:0000169c
+   318 0001:000016a7   321 0001:000016b0   323 0001:000016ba   325 0001:000016c4
+   327 0001:000016d5   330 0001:000016e0   332 0001:000016ea   335 0001:000016f4
+   336 0001:000016fb   339 0001:00001700   341 0001:0000170a   344 0001:00001714
+   345 0001:0000171b   348 0001:00001720   353 0001:00001745   356 0001:00001747
+   351 0001:0000174a   352 0001:00001750   354 0001:0000175a   355 0001:00001766
+   356 0001:00001768   359 0001:00001770   360 0001:0000178b   381 0001:000017b7
+   362 0001:000017be   364 0001:000017c4   365 0001:000017ea   381 0001:00001813
+   367 0001:0000181a   370 0001:00001830   373 0001:00001832   377 0001:00001834
+   378 0001:00001889   380 0001:000018b2   381 0001:000018c2   385 0001:000018c9
+   392 0001:0000190f   393 0001:0000194e   387 0001:0000199d   388 0001:000019e1
+   396 0001:00001a29   397 0001:00001ae7   398 0001:00001ae9   401 0001:00001b00
+   403 0001:00001b05   404 0001:00001b07   406 0001:00001b10   407 0001:00001b13
+   409 0001:00001b1d   404 0001:00001b4c   413 0001:00001b6b   414 0001:00001b6f
+   417 0001:00001b70   419 0001:00001b7a   422 0001:00001b84   423 0001:00001b95
+   420 0001:00001b98   423 0001:00001b9a   426 0001:00001ba0   428 0001:00001baa
+   431 0001:00001bb4   432 0001:00001bc5   429 0001:00001bc8   432 0001:00001bca
+   435 0001:00001bd0   436 0001:00001bdd   437 0001:00001bf9   451 0001:00001bfc
+   439 0001:00001c0d   440 0001:00001cb4   441 0001:00001cc9   451 0001:00001ccc
+   443 0001:00001cdd   444 0001:00001ce0   445 0001:00001ce6   451 0001:00001ce9
+   446 0001:00001cfa   447 0001:00001d02   451 0001:00001d05   448 0001:00001d16
+   451 0001:00001d1d   454 0001:00001d40   455 0001:00001d5b   457 0001:00001d66
+   458 0001:00001d6b   460 0001:00001d73   461 0001:00001d76   464 0001:00001d9e
+   466 0001:00001db2   469 0001:00001db7   470 0001:00001e39   473 0001:00001e44
+   474 0001:00001e47   476 0001:00001ea3   477 0001:00001eb0   480 0001:00001ed0
+   481 0001:00001edd   482 0001:00001ef7   485 0001:00001efa   484 0001:00001f0b
+   485 0001:00001faf   489 0001:00001fd0   490 0001:00001fd5   493 0001:00001ffb
+   494 0001:0000200f   497 0001:00002025   510 0001:00002031   513 0001:0000203c
+   515 0001:00002048   518 0001:000021c5   519 0001:00002260   522 0001:00002270
+   523 0001:0000228b   525 0001:000022a8   526 0001:000022db   528 0001:000022e6
+   529 0001:000022e8   532 0001:00002314   533 0001:00002348   537 0001:0000235c
+   539 0001:00002366   541 0001:00002390   545 0001:000023a1   547 0001:000023bb
+   537 0001:000023d4   550 0001:000023d8   551 0001:000023ec   553 0001:000023f2
+   557 0001:00002403   559 0001:0000241e   562 0001:0000242e   563 0001:000024d5
+   566 0001:000024f0   570 0001:0000250b   571 0001:00002521   573 0001:0000252b
+   574 0001:0000252d   577 0001:00002557   578 0001:0000258c   582 0001:000025a0
+   584 0001:000025b9   585 0001:000025c3   586 0001:000025cd   591 0001:000025d7
+   593 0001:000025e3   599 0001:00002659   604 0001:0000266a   606 0001:00002684
+   610 0001:000026b5   613 0001:000026cd   616 0001:000026d3   619 0001:000026dc
+   621 0001:00002700   623 0001:0000270c   625 0001:00002713   628 0001:000027e0
+   630 0001:000027e3   632 0001:00002801   634 0001:0000280c   635 0001:00002811
+   637 0001:0000281b   638 0001:0000281e   635 0001:00002843   649 0001:0000287b
+   650 0001:0000287e   644 0001:00002884   645 0001:0000288c   646 0001:000028ac
+   650 0001:000028af   653 0001:000028c0   655 0001:000028c3   657 0001:000028e2
+   659 0001:000028f1   660 0001:000028f6   662 0001:00002904   663 0001:00002907
+   660 0001:0000292f   674 0001:00002968   675 0001:0000296b   669 0001:00002971
+   670 0001:00002979   671 0001:000029a3   675 0001:000029a6   678 0001:000029b0
+   680 0001:000029b3   682 0001:000029d3   684 0001:000029e2   686 0001:000029f9
+   687 0001:000029fc   684 0001:00002a26   697 0001:00002a60   698 0001:00002a63
+   693 0001:00002a69   694 0001:00002a71   695 0001:00002aa2   698 0001:00002aa5
+   701 0001:00002ab0   703 0001:00002ab3   707 0001:00002ad2   710 0001:00002af7
+   711 0001:00002b02   713 0001:00002b2a   715 0001:00002b2e   717 0001:00002b3d
+   720 0001:00002b45   723 0001:00002b47   720 0001:00002b51   707 0001:00002b57
+   727 0001:00002b94   728 0001:00002b98   727 0001:00002b9f   728 0001:00002ba3
+   731 0001:00002bb0   733 0001:00002bb7   736 0001:00002bc0   737 0001:00002bda
+   739 0001:00002beb   740 0001:00002bf0   742 0001:00002bfc   743 0001:00002bff
+   745 0001:00002c09   740 0001:00002c19   764 0001:00002c2f   765 0001:00002c32
+   752 0001:00002c43   753 0001:00002d13   755 0001:00002d2a   756 0001:00002d2d
+   758 0001:00002d3f   765 0001:00002d53   768 0001:00002d70   770 0001:00002d7a
+   772 0001:00002d84   775 0001:00002d8b   774 0001:00002d8e   775 0001:00002d90
+   778 0001:00002da0   779 0001:00002dae   781 0001:00002dcb   783 0001:00002dd7
+   784 0001:00002e7e   786 0001:00002e91   787 0001:00002e94   789 0001:00002e9e
+   792 0001:00002eb3   795 0001:00002ed0   796 0001:00002ede   798 0001:00002efb
+   800 0001:00002f07   801 0001:00002fae   803 0001:00002fc1   804 0001:00002fc4
+   806 0001:00002fce   809 0001:00002fe6   812 0001:00003000   813 0001:0000301b
+   815 0001:0000302a   816 0001:0000302f   818 0001:00003047   819 0001:0000304a
+   821 0001:00003054   822 0001:0000305b   826 0001:00003079   828 0001:0000307e
+   829 0001:0000314c   831 0001:0000315f   832 0001:00003162   834 0001:0000316c
+   835 0001:0000317b   839 0001:00003187   842 0001:000031a0   843 0001:000031c0
+   845 0001:000031d6   846 0001:000031d9   848 0001:000031e3   849 0001:000031e5
+   852 0001:000031f1   853 0001:00003225   857 0001:00003239   859 0001:00003252
+   860 0001:0000325c   861 0001:00003266   866 0001:00003270   868 0001:00003280
+   874 0001:000032f6   879 0001:00003307   881 0001:00003321   866 0001:0000334c
+   885 0001:00003350   886 0001:00003364   843 0001:0000341c   849 0001:00003439
+   887 0001:00003456   890 0001:00003480   891 0001:00003484   893 0001:0000348b
+   895 0001:00003498   896 0001:000034a4   897 0001:000034aa   901 0001:000034b0
+   903 0001:000034c7   907 0001:000034d0   909 0001:000034d2   910 0001:000034e7
+   913 0001:000034eb   914 0001:00003516   915 0001:0000351f   916 0001:0000352f
+   926 0001:00003535   927 0001:00003542   928 0001:00003549   929 0001:00003550
+   931 0001:00003558   934 0001:00003560   936 0001:0000356e   937 0001:00003575
+   938 0001:0000357c   939 0001:00003584

@@ -1,0 +1,207 @@
+ DataThread
+
+ Timestamp is 5003ced0 (Mon Jul 16 16:20:32 2012)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000028d0H .text                   CODE
+ 0001:000028d0 000000c2H .text$x                 CODE
+ 0002:00000000 0000005cH .idata$5                DATA
+ 0002:0000005c 00000048H .rdata                  DATA
+ 0002:000000a8 000000f0H .xdata$x                DATA
+ 0002:00000198 00000028H .idata$2                DATA
+ 0002:000001c0 00000014H .idata$3                DATA
+ 0002:000001d4 0000005cH .idata$4                DATA
+ 0002:00000230 00000194H .idata$6                DATA
+ 0002:000003d0 0000006eH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 00000000H .data                   DATA
+ 0003:00000010 00000014H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ?MyDataThread@CDataThread@@SAXPAX@Z 10001000 f   DataThread.obj
+ 0001:00000040       ?ProcessLoadRequest@CDataThread@@AAEXXZ 10001040 f   DataThread.obj
+ 0001:00000270       ?IsFree@CDataThread@@UAEHXZ 10001270 f   DataThread.obj
+ 0001:00000280       ??0CDataThread@@QAE@KK@Z   10001280 f   DataThread.obj
+ 0001:000003c0       ??1CDataThread@@QAE@XZ     100013c0 f   DataThread.obj
+ 0001:00000800       ?PopUpDataObj@CDataThread@@UAEPAVIDataObj@@XZ 10001800 f   DataThread.obj
+ 0001:00000960       ?PushBackDataObj@CDataThread@@UAEPAVIDataObj@@PAV2@@Z 10001960 f   DataThread.obj
+ 0001:00000b50       ?SetThreadPriority@CDataThread@@UAEXK@Z 10001b50 f   DataThread.obj
+ 0001:00000b70       ?DataThreadCreateNew@@YAPAVIDataThread@@KK@Z 10001b70 f   DataThread.obj
+ 0001:00000ba0       ?Process@CDataThread@@UAEHXZ 10001ba0 f   DataThread.obj
+ 0001:00000e90       ?TestDataObjLoadStatus@CDataThread@@UAEH_J@Z 10001e90 f   DataThread.obj
+ 0001:000010b0       ?SetThreadExitCallback@CDataThread@@UAEXAAUIThreadExitCallback@@@Z 100020b0 f   DataThread.obj
+ 0001:000010c0       ??1?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAE@XZ 100020c0 f i DataThread.obj
+ 0001:00001170       ?begin@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAE?AViterator@12@XZ 10002170 f i DataThread.obj
+ 0001:000011a0       ?end@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAE?AViterator@12@XZ 100021a0 f i DataThread.obj
+ 0001:000011d0       ?pop_front@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAEXXZ 100021d0 f i DataThread.obj
+ 0001:00001260       ?insert@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAEXViterator@12@Vconst_iterator@12@1@Z 10002260 f i DataThread.obj
+ 0001:00001b40       ?push_back@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAEXABQAVIDataObj@@@Z 10002b40 f i DataThread.obj
+ 0001:00001e40       ??0const_iterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAE@ABViterator@12@@Z 10002e40 f i DataThread.obj
+ 0001:00001e60       ??Eiterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAEAAV012@XZ 10002e60 f i DataThread.obj
+ 0001:00001e60       ??Econst_iterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAEAAV012@XZ 10002e60 f i DataThread.obj
+ 0001:00001ea0       ?_Buyback@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@IAEXXZ 10002ea0 f i DataThread.obj
+ 0001:00002000       ?_Freefront@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@IAEXXZ 10003000 f i DataThread.obj
+ 0001:00002080       ??Hiterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QBE?AV012@H@Z 10003080 f i DataThread.obj
+ 0001:000020e0       ??Giterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QBE?AV012@H@Z 100030e0 f i DataThread.obj
+ 0001:00002150       ?pop_back@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAEXXZ 10003150 f i DataThread.obj
+ 0001:00002290       ?_Buyfront@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@IAEXXZ 10003290 f i DataThread.obj
+ 0001:00002430       ?_Growmap@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@IAEPAPAPAVIDataObj@@I@Z 10003430 f i DataThread.obj
+ 0001:000024a0       ??0const_iterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAE@XZ 100034a0 f i DataThread.obj
+ 0001:000024b0       ??0const_iterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QAE@PAPAVIDataObj@@PAPAPAV3@@Z 100034b0 f i DataThread.obj
+ 0001:000024e0       ?_Add@const_iterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@IAEXH@Z 100034e0 f i DataThread.obj
+ 0001:00002550       ??1CMyCs@@QAE@XZ           10003550 f i DataThread.obj
+ 0001:00002560       ?copy@std@@YA?AViterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@1@Vconst_iterator@31@0V231@@Z 10003560 f i DataThread.obj
+ 0001:00002560       ?copy@std@@YA?AViterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@1@V231@00@Z 10003560 f i DataThread.obj
+ 0001:000025f0       ??1CMyLock@@QAE@XZ         100035f0 f i DataThread.obj
+ 0001:00002600       ?Release@CDataThread@@UAEKXZ 10003600 f i DataThread.obj
+ 0001:00002620       ?copy_backward@std@@YA?AViterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@1@V231@00@Z 10003620 f i DataThread.obj
+ 0001:000026b0       ?SetImmediateExigence@CDataThread@@UAEX_N@Z 100036b0 f i DataThread.obj
+ 0001:000026c0       ?_Construct@std@@YAXPAPAVIDataObj@@ABQAV2@@Z 100036c0 f i DataThread.obj
+ 0001:000026e0       ??Giterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QBEHABV012@@Z 100036e0 f i DataThread.obj
+ 0001:000026e0       ??Gconst_iterator@?$deque@PAVIDataObj@@V?$allocator@PAVIDataObj@@@std@@@std@@QBEHABV012@@Z 100036e0 f i DataThread.obj
+ 0001:00002730       ??3@YAXPAX@Z               10003730 f   msvcprt:delop_s.obj
+ 0001:0000273c       ___CxxFrameHandler         1000373c f   MSVCRT:MSVCRT.dll
+ 0001:00002750       __purecall                 10003750 f   MSVCRT:MSVCRT.dll
+ 0001:00002756       ??2@YAPAXI@Z               10003756 f   MSVCRT:MSVCRT.dll
+ 0001:0000275c       __CRT_INIT@12              1000375c f   MSVCRT:crtdll.obj
+ 0001:00002807       __DllMainCRTStartup@12     10003807 f   MSVCRT:crtdll.obj
+ 0001:000028a4       _free                      100038a4 f   MSVCRT:MSVCRT.dll
+ 0001:000028aa       __initterm                 100038aa f   MSVCRT:MSVCRT.dll
+ 0001:000028b0       _DllMain@12                100038b0 f   MSVCRT:dllmain.obj
+ 0002:00000000       __imp__TlsSetValue@8       10004000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__LeaveCriticalSection@4 10004004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__EnterCriticalSection@4 10004008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__WaitForMultipleObjects@16 1000400c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__ResumeThread@4      10004010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__CreateThread@24     10004014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__CreateEventA@16     10004018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__InitializeCriticalSection@4 1000401c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__DeleteCriticalSection@4 10004020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__WaitForSingleObject@8 10004024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__SetEvent@4          10004028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__CloseHandle@4       1000402c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__SetThreadPriority@8 10004030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__DisableThreadLibraryCalls@4 10004034     kernel32:KERNEL32.dll
+ 0002:00000038       \177KERNEL32_NULL_THUNK_DATA 10004038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp___purecall           1000403c     MSVCRT:MSVCRT.dll
+ 0002:00000040       __imp_??2@YAPAXI@Z         10004040     MSVCRT:MSVCRT.dll
+ 0002:00000044       __imp__free                10004044     MSVCRT:MSVCRT.dll
+ 0002:00000048       __imp___initterm           10004048     MSVCRT:MSVCRT.dll
+ 0002:0000004c       __imp__malloc              1000404c     MSVCRT:MSVCRT.dll
+ 0002:00000050       __imp___adjust_fdiv        10004050     MSVCRT:MSVCRT.dll
+ 0002:00000054       __imp____CxxFrameHandler   10004054     MSVCRT:MSVCRT.dll
+ 0002:00000058       \177MSVCRT_NULL_THUNK_DATA 10004058     MSVCRT:MSVCRT.dll
+ 0002:0000005c       ??_7CDataThread@@6B@       1000405c     DataThread.obj
+ 0002:00000080       ??_7IDataThread@@6B@       10004080     DataThread.obj
+ 0002:00000198       __IMPORT_DESCRIPTOR_KERNEL32 10004198     kernel32:KERNEL32.dll
+ 0002:000001ac       __IMPORT_DESCRIPTOR_MSVCRT 100041ac     MSVCRT:MSVCRT.dll
+ 0002:000001c0       __NULL_IMPORT_DESCRIPTOR   100041c0     kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    10005000     MSVCRT:cinitexe.obj
+ 0003:00000004       ___xc_z                    10005004     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xi_a                    10005008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_z                    1000500c     MSVCRT:cinitexe.obj
+ 0003:00000014       __adjust_fdiv              10005014     <common>
+ 0003:00000018       ___onexitend               10005018     <common>
+ 0003:0000001c       ___onexitbegin             1000501c     <common>
+ 0003:00000020       __pRawDllMain              10005020     <common>
+
+ entry point at        0001:00002807
+
+ Static symbols
+
+
+Line numbers for .\Release\DataThread.obj(D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xmemory) segment .text
+
+    34 0001:000026c0
+
+Line numbers for .\Release\DataThread.obj(D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xutility) segment .text
+
+    18 0001:00002560    19 0001:00002584    18 0001:000025bf    20 0001:000025d1
+    24 0001:00002620    25 0001:00002644    24 0001:00002680    26 0001:00002692
+
+Line numbers for .\Release\DataThread.obj(F:\cygwin\home\Administrator\Projects\C3Engine_Windows_GL2\DataThread\DataThread.h) segment .text
+
+    26 0001:00002550    28 0001:00002557    48 0001:000025f0    65 0001:00002600
+    68 0001:000026b0
+
+Line numbers for .\Release\DataThread.obj(D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\deque) segment .text
+
+   207 0001:000010c0   208 0001:000010d0   221 0001:00001170   225 0001:000011a0
+   275 0001:000011d0   276 0001:000011d7   277 0001:000011e6   278 0001:000011ed
+   363 0001:00001260   364 0001:00001263   366 0001:000012c3   367 0001:00001317
+   368 0001:0000131c   369 0001:00001328   370 0001:00001330   371 0001:00001347
+   372 0001:00001364   373 0001:0000138b   374 0001:000013e7   375 0001:000013f3
+   376 0001:00001466   397 0001:0000150b   378 0001:00001515   379 0001:0000151d
+   380 0001:0000158d   381 0001:000015b4   382 0001:00001686   397 0001:00001726
+   384 0001:00001730   385 0001:00001738   386 0001:00001756   387 0001:00001768
+   388 0001:0000178b   389 0001:000017fd   390 0001:0000180b   391 0001:000018ac
+   397 0001:00001963   393 0001:00001976   394 0001:0000197c   397 0001:00001992
+   395 0001:000019c8   396 0001:000019f9   397 0001:00001aa0   280 0001:00001b40
+   281 0001:00001b48   286 0001:00001b61   288 0001:00001b66   289 0001:00001b7b
+   293 0001:00001be5   289 0001:00001bfe   293 0001:00001c44   289 0001:00001c53
+   293 0001:00001cc2   292 0001:00001cd1   293 0001:00001ce2   283 0001:00001cf1
+   284 0001:00001e0d   293 0001:00001e22    46 0001:00001e40   131 0001:00001e60
+   132 0001:00001e78   133 0001:00001e84   134 0001:00001e8d   135 0001:00001e92
+   427 0001:00001ea0   428 0001:00001eb4   431 0001:00001ebe   432 0001:00001ecf
+   433 0001:00001ed2   434 0001:00001ee4   443 0001:00001f08   435 0001:00001f0c
+   436 0001:00001f1d   437 0001:00001f24   443 0001:00001f41   439 0001:00001f46
+   440 0001:00001f55   441 0001:00001fb4   442 0001:00001fb9   443 0001:00001fc5
+   480 0001:00002000   481 0001:00002015   482 0001:00002020   483 0001:00002036
+   484 0001:0000203c   486 0001:00002054   157 0001:00002080   158 0001:0000208e
+   160 0001:000020e0   295 0001:00002150   296 0001:00002155   297 0001:00002167
+   298 0001:000021eb   299 0001:000021f2   300 0001:000021f6   301 0001:000021f7
+   302 0001:00002202   445 0001:00002290   446 0001:000022a4   449 0001:000022ae
+   450 0001:000022bf   452 0001:000022c2   453 0001:000022d4   467 0001:000022f8
+   454 0001:000022fc   455 0001:00002306   456 0001:0000230e   467 0001:00002330
+   457 0001:00002334   458 0001:0000233b   459 0001:00002345   460 0001:0000234d
+   461 0001:00002352   467 0001:00002374   463 0001:00002378   464 0001:00002382
+   467 0001:000023d7   497 0001:00002430   500 0001:0000244f   501 0001:0000247b
+   502 0001:00002487   503 0001:0000248a   504 0001:0000248d    39 0001:000024a0
+    43 0001:000024b0   104 0001:000024e0   107 0001:000024f4   108 0001:00002509
+   109 0001:0000250d   114 0001:00002511   111 0001:00002515   114 0001:00002526
+    84 0001:000026e0
+
+Line numbers for .\Release\DataThread.obj(F:\cygwin\home\Administrator\Projects\C3Engine_Windows_GL2\DataThread\DataThread.cpp) segment .text
+
+    12 0001:00000000    16 0001:00000009    18 0001:0000001d    20 0001:00000024
+    22 0001:0000002e    25 0001:00000033    28 0001:00000040    33 0001:0000005b
+    35 0001:0000008b    36 0001:00000092    38 0001:0000009d    46 0001:000000a3
+    47 0001:000000b1    41 0001:00000102    43 0001:0000018b    46 0001:00000193
+    47 0001:0000019e    48 0001:000001ec    33 0001:00000213    49 0001:0000021e
+    52 0001:00000235    53 0001:0000023e    56 0001:00000270    58 0001:00000278
+    61 0001:00000280    64 0001:0000032d    66 0001:00000349    69 0001:00000353
+    70 0001:00000359    77 0001:00000363    78 0001:00000367    79 0001:0000036b
+    81 0001:0000039f    82 0001:000003ac    85 0001:000003c0    86 0001:000003e8
+    88 0001:00000403    91 0001:00000410    93 0001:0000041f    94 0001:00000428
+    97 0001:0000042e    99 0001:00000438   100 0001:0000043b   103 0001:00000441
+   105 0001:0000044b   106 0001:0000044e   109 0001:00000454   110 0001:00000457
+   112 0001:00000494   113 0001:0000049b   116 0001:000004c5   117 0001:000004c8
+   119 0001:00000505   120 0001:0000050e   123 0001:0000055b   124 0001:0000055e
+   126 0001:0000059b   127 0001:000005a4   129 0001:000005f1   132 0001:00000800
+   133 0001:0000081c   134 0001:0000082d   136 0001:00000840   137 0001:0000085f
+   138 0001:000008e2   141 0001:000008f0   137 0001:000008ff   138 0001:0000091a
+   141 0001:00000928   140 0001:00000937   141 0001:0000093e   144 0001:00000960
+   145 0001:00000964   146 0001:00000970   160 0001:00000973   149 0001:00000979
+   157 0001:00000998   159 0001:000009ce   160 0001:000009d1   157 0001:000009d7
+   159 0001:000009e9   160 0001:000009ec   157 0001:000009f2   159 0001:00000b2b
+   160 0001:00000b2e   151 0001:00000b34   152 0001:00000b3c   160 0001:00000b40
+   163 0001:00000b50   166 0001:00000b5a   168 0001:00000b66   171 0001:00000b70
+   174 0001:00000b92   172 0001:00000b93   174 0001:00000b95   177 0001:00000ba0
+   179 0001:00000bbe   185 0001:00000bcc   187 0001:00000bda   188 0001:00000beb
+   189 0001:00000c6d   190 0001:00000e4c   191 0001:00000e59   194 0001:00000e64
+   195 0001:00000e6b   198 0001:00000e90   199 0001:00000eae   201 0001:00000ebf
+   203 0001:00000ed1   205 0001:00000f04   206 0001:00000f06   203 0001:00000f1a
+   213 0001:00000f4d   215 0001:00000f58   217 0001:00000f8b   218 0001:00000f8d
+   215 0001:00000f9d   230 0001:00000fd0   208 0001:00000fd2   220 0001:00000fe7
+   225 0001:00000ffc   227 0001:00001003   229 0001:00001035   230 0001:00001037
+   227 0001:00001047   237 0001:00001077   238 0001:00001084   232 0001:00001099
+   241 0001:000010b0   243 0001:000010ba
+
+ 288 bytes saved through ICF
+
