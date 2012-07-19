@@ -1,0 +1,2 @@
+C3BaseType最前加 #include <ctype.h>
+C3Primitive.h最前加 typedef void* HNATIVEWINDOW;

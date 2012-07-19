@@ -1,0 +1,36 @@
+﻿#! -*- python -*-
+import make_c3_env
+import os
+
+print '====开始编译C3HTML5 Application'
+emsc_env = make_c3_env.EmscriptenEnvironment()
+          
+#替换编译信息字符串
+emsc_env['CXXCOMSTR'] = "Compile $TARGET"
+emsc_env['CCCOMSTR'] = "Compile $TARGET"
+emsc_env['LINKCOMSTR'] = "Link $TARGET"
+emsc_env['ARCOMSTR'] = "Build Static Library $TARGET"
+
+emsc_env.Append(
+	# 在这里列出Include目录
+	CPPPATH=[
+		'C3Engine_JsWebGL/Include', 
+	],
+	
+	#不要修改这里
+	CCFLAGS=[
+		'-w',
+		'-fshort-wchar',
+	],
+)
+
+# 在这里列出项目所有的c/cpp代码
+sources = [
+	'C3Engine_JsWebGL/C3_Child_book/3DBookApplication.cpp', 
+	'C3Engine_JsWebGL/C3_Child_book/3DBookUI.cpp', 
+	'C3Engine_JsWebGL/C3_Child_book/MyIni.cpp', 
+	'C3Engine_JsWebGL/C3_Child_book/TqSoundJavaImpl.cpp',	
+	'C3Engine_JsWebGL/C3_Child_book/C3HTMLAppJSBind.cpp',
+]
+
+make_c3_env.MakeC3StaticLib(emsc_env, 'C3HTMLApp', sources, 'build', '', 'libs')

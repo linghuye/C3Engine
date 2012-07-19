@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# Copyright (c) 2011 The Native Client Authors. All rights reserved.
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+C3HTML5_SDK_ROOT="/Users/linghuye/Projects/C3Engine_HTML5"
+SCONS_DIR="${C3HTML5_SDK_ROOT}/scons-2.0.1"
+BASE_SCRIPT="${SCONS_DIR}/script/scons"
+export SCONS_LIB_DIR="${SCONS_DIR}/engine"
+
+"${BASE_SCRIPT}" --file=C3Engine_JsWebGL/C3HTMLApp.scons --site-dir="c3_build_tools" $*

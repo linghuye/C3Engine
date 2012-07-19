@@ -1,0 +1,7 @@
+#!/bin/bash
+
+MY_EMCC="/Users/linghuye/Projects/C3Engine_HTML5/emscripten/emcc"
+rm C3HTMLApp.bc
+rm C3HTMLApp.js
+"${MY_EMCC}" C3Engine.bc libC3HTMLApp.bc -o C3HTMLApp.bc
+"${MY_EMCC}" -O2 --closure 0 --post-js export_extra.js C3HTMLApp.bc -o C3HTMLApp.js
